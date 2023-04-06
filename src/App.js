@@ -1,22 +1,21 @@
 import React from "react";
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import NavigationBar from "./Components/NavigationBar";
+import LogIn from "./Pages/LogIn";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <BrowserRouter>
+        <NavigationBar />
+        <Routes>
+          <Route path="/" element={<Navigate to="/home" />} />
+          {/* <Route path="/home" element={<Home />} />
+          <Route path="/kineblitz" element={<Kineblitz />} />
+          <Route path="/aboutus" element={<AboutUs />} /> */}
+          <Route path="/login" element={<LogIn />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
