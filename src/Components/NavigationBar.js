@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 export default function NavigationBar() {
   return (
     <div>
+    <div>
         <header>
           <nav className="absolute z-50 flex justify-between text-white pl-20 py-6 bg-[#1d3578] w-full">
             <Link className="text-2xl font-semibold" to="/home">PENTABYTE</Link>
@@ -14,6 +15,7 @@ export default function NavigationBar() {
             </div>
           </nav>
         </header>
+    </div>
     </div>
   )
 }

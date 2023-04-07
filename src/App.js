@@ -10,9 +10,7 @@ function App() {
         <NavigationBar />
         <Routes>
           <Route path="/" element={<Navigate to="/home" />} />
-          {/* <Route path="/home" element={<Home />} />
-          <Route path="/kineblitz" element={<Kineblitz />} />
-          <Route path="/aboutus" element={<AboutUs />} /> */}
+          
           <Route path="/login" element={<LogIn />} />
         </Routes>
       </BrowserRouter>
