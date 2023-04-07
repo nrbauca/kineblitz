@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import NavigationBar from "./Components/NavigationBar";
 import LogIn from "./Pages/LogIn";
+import './App.css';
 
 function App() {
   return (
