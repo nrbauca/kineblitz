@@ -245,3 +245,150 @@ button[type=submit]:hover{
 background: var(--main-red);
 color: var(--main-black);
 }
+
+/* DASHBOARD */
+.dashboard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  margin-top: 150px;
+}
+
+.dashboard-welcome{
+  position: relative;
+  flex-direction: row;
+
+  width: 1280px;
+  height: 105px;
+  margin-bottom: 72px;
+  padding: 12px;
+}
+  .dashboard-header{
+      font-weight: 600;
+      font-size: 50px;
+      margin-bottom: 16px;
+      color: var(--main-blue);
+  }
+  .dashboard-user{
+      text-decoration-line: underline;
+  }
+  .dashboard-instruction{
+      font-style: italic;
+      font-weight: 400;
+      font-size: 20px;
+      color: var(--main-blue);
+  }
+
+.dashboard-options {
+  position: relative;
+  height: 250px;
+  width: 1280px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 64px;
+}
+  .dashboard-options button[type="submit"]{
+      height: 250px;
+      width: 250px;
+      border-radius: 16px;
+      border: none;
+      background-color: var(--main-blue);
+      color: var(--main-white);
+      font-weight: 400;
+      font-size: 35px;
+  }
+  .dashboard-options button[type="submit"]:hover{
+      background-color: var(--accent-blue);
+      color: var(--main-black);
+  }
+
+/* USER DASHBOARD */
+.user-dashboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--main-black);
+}
+
+.user-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  margin-top: 140px;
+}
+
+.user-information {
+  width: 1044px;
+  height: 286px;
+  padding: 32px;
+  margin-bottom: 40px;
+  background-color: var(--accent-blue);
+  border-radius: 16px;
+}
+  .user-information img {
+      width: 230px;
+      height: 230px;
+      margin-right: 35px;
+      border: var(--main-black) .5px solid;
+  }
+
+.user-details {
+  width: 749px;
+  height: 166px;
+}
+  .user-name {
+      position: relative;
+      height: 60px;
+      font-weight: 700;
+      font-size: 40px;
+      margin-bottom: 16px;
+  }
+  .birth-date, .age, .id-num {
+      padding-left: 20px;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+  }
+  
+.user-container h3{
+  width: 1044px;
+  height: 60px;
+  background-color: var(--accent-red);
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 32px;
+}
+
+.user-records {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  gap: 32px;
+}
+  .user-records button[type="submit"]{
+      width: 320px;
+      height: 50px;
+      border-radius: 16px;
+      font-size: 16px;
+      border: none;
+      background-color:var(--accent-blue);
+  }
+  .user-records button[type="submit"]:hover{
+      background-color: var(--main-blue);
+      color: var(--main-white);
+  }
