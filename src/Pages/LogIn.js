@@ -1,8 +1,10 @@
 import React from 'react';
+import hallway from '../Images/Hallway_Background.jpg'
 
 export default function LogIn() {
   return (
     <div>
+      <img src={hallway} alt="hallway background" className="w-[1550px] h-full fixed top-[20px] bg-cover" />
       <div className="login-bg" />
       <main className="login">
         <div className="login-container">

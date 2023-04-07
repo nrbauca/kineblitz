@@ -6,7 +6,7 @@ export default function NavigationBar() {
     <div>
     <div>
         <header>
-          <nav className="absolute z-50 flex justify-between text-white pl-20 py-6 bg-[#1d3578] w-full">
+          <nav className="absolute top-0 z-50 flex justify-between text-white pl-20 py-6 bg-[#1d3578] w-full">
             <Link className="text-2xl font-semibold" to="/home">PENTABYTE</Link>
             <div className="flex gap-16 items-center pr-20">
               <Link to="/kineblitz"><button className="text-base">KINEBLITZ</button></Link>
