@@ -11,3 +11,36 @@
     --accent-blue: #CBD8F8;
     --accent-red: #F5C4C4;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+
+html {
+    font-family: "Open-Sans", sans-serif;
+    background-color: var(--main-white);
+}
+
+/* GENERAL STYLES */
+.gen-button {
+    box-shadow: 3px 3px 4px #2f2f2f86;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.right{
+    text-align: right;
+}
