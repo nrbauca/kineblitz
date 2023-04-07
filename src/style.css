@@ -225,8 +225,8 @@ header li>a:hover {
     height: 100%;
     background: url(Hallway_Background.jpg) no-repeat center center;
     background-size: cover;
-    filter: blur(2px); */
-}
+    filter: blur(2px);
+} */
 
 .login {
     display: flex;

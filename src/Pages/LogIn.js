@@ -4,8 +4,8 @@ import hallway from '../Images/Hallway_Background.jpg'
 export default function LogIn() {
   return (
     <div>
-      <img src={hallway} alt="hallway background" className="w-[1550px] h-full fixed top-[20px] bg-cover" />
-      <div className="login-bg" />
+      <img src={hallway} alt="hallway background" className="fixed top-[20px] w-[1550px] h-full bg-cover blur-[2px]" />
+      {/* <div className="login-bg" /> */}
       <main className="login">
         <div className="login-container">
           <form action className="login-form">
