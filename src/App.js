@@ -10,7 +10,7 @@ function App() {
       <BrowserRouter>
         <NavigationBar />
         <Routes>
-          <Route path="/" element={<Navigate to="/home" />} />
+          <Route path="/" element={<Navigate to="/ome" />} />
           
           <Route path="/login" element={<LogIn />} />
         </Routes>
