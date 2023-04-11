@@ -11,6 +11,9 @@ export default function NavigationBar() {
             <Link to="/kineblitz"><button className="text-base">KINEBLITZ</button></Link>
             <Link to="/aboutus"><button className="text-base">ABOUT US</button></Link>
             <Link to="/login"><button className="text-base">LOG IN</button></Link>
+            <Link to="/login"><button className="text-base">Dashboard (Temp)</button></Link>
+            <Link to="/login"><button className="text-base">LOG IN</button></Link>
+            <Link to="/login"><button className="text-base">LOG IN</button></Link>
           </div>
         </nav>
       </header>
