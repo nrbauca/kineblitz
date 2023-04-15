@@ -12,6 +12,7 @@ export default function UserDashboard() {
                     <p className="birth-date">Birth Date:</p>
                     <p className="age">Age:</p>
                     <p className="id-num">ID No.:</p>
+                    <p className="id-num">Condition:</p>
                     </div>
                 </div>
                 <h3 className="center">Records</h3>

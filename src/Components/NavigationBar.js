@@ -1,17 +1,17 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Rectangle1 from '../Images/Rectangle 1.png'
+import pentabytelogo from '../Images/Pentabyte_Logo.png'
 
 export default function NavigationBar() {
   return (
     <div>
       <header className="font-['Outfit']">
-        <nav className="absolute z-50 top-0 w-full flex justify-between pl-20 py-6 bg-[#1d3578] text-white">
+        <nav className="absolute z-50 top-0 flex h-[80px] w-full justify-between text-white pl-14 bg-[#051F6A]">
           <div className="flex items-center">
-            <img src={Rectangle1} alt="pentabyte logo" className="w-[43px] h-[38px]" />
-            <Link className="text-2xl font-semibold" to="/home">PENTABYTE</Link>
+            <img src={pentabytelogo} alt="pentabyte logo" className="w-[65px] h-[60px]" />
+            <Link className="text-3xl font-semibold" to="/home">PENTABYTE</Link>
           </div>
-          <div className="flex gap-16 items-center pr-20">
+          <div className="flex gap-6 items-center pr-14">
             <Link to="/kineblitz"><button className="text-base">KINEBLITZ</button></Link>
             <Link to="/aboutus"><button className="text-base">ABOUT US</button></Link>
             <Link to="/login"><button className="text-base">LOG IN</button></Link>

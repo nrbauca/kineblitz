@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import kineblitzlogo from '../Images/KINEBLITZ_Logo.png'
 
 export default function Home() {
   return (
@@ -18,7 +20,7 @@ export default function Home() {
   
           </div>
           <div className="home-logo">
-            <img src="PHOTOS\KINEBLITZ_Logo_3.png" alt="" />
+            <Link to="/kineblitz"><button><img src={kineblitzlogo} alt="" /></button></Link>
           </div>
         </section>
         <section className="feature-container">
