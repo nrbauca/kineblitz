@@ -237,12 +237,12 @@ border: none;
   border-radius: 5PX;
   margin-top: 64px;
 padding: 8px 15px 8px 15px;
-background: var(--main-white);
+background: var(--accent-blue);
 color: var(--main-black);
 }
 
 button[type=submit]:hover{
-background: var(--main-red);
+background: var(--main-red) /* temporary */;
 color: var(--main-black);
 }
 
@@ -355,7 +355,7 @@ color: var(--main-black);
       font-size: 40px;
       margin-bottom: 16px;
   }
-  .birth-date, .age, .id-num {
+  .birth-date, .age, .id-num, .condition {
       padding-left: 20px;
       font-weight: 400;
       font-size: 20px;
