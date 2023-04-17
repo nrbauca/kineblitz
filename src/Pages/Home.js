@@ -16,7 +16,7 @@ export default function Home() {
               Dapibus metus aliquam velit in amet quam egestas augue. 
               Habitant iaculis blandit faucibus nibh lobortis rutrum massa.</p>
   
-              <button className="gen-button">LOG IN</button>
+              <Link to="/login"><button className="gen-button">LOG IN</button></Link>
   
           </div>
           <div className="home-logo">
