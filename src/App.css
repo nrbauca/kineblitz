@@ -7,7 +7,7 @@
         flex-direction: column;
         position: relative;
         /* margin-top: 100px; */
-        color: var(--main-blue);
+        color: var(--main-purple);
     }
     
     .home-container {
@@ -43,7 +43,7 @@
         font-size: 16px;
         line-height: 16px;
         margin-bottom: 20px;
-        color: var(--main-blue);
+        color: var(--main-purple);
         
         display: flex;
         align-items: flex-end;
@@ -72,7 +72,7 @@
         font-size: 16px;
         line-height: 24px;
         text-transform: capitalize;
-        color: var(--main-blue);
+        color: var(--main-purple);
     }
     
     .home-headline button{
@@ -226,7 +226,7 @@ input[type="password"]{
 
 p{
   font-weight: 400;
-  font-size: 10px;
+  font-size: 13px;
   color: var(--main-white);
 }
 
@@ -242,8 +242,8 @@ color: var(--main-black);
 }
 
 button[type=submit]:hover{
-background: var(--main-red) /* temporary */;
-color: var(--main-black);
+background: var(--main-purple) /* temporary */;
+color: var(--main-white);
 }
 
 /* DASHBOARD */

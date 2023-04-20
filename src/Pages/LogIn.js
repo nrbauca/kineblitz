@@ -16,8 +16,8 @@ export default function LogIn() {
             <label htmlFor="password">Password
               <input type="password" name="password" id="password" />
             </label>
-            <p>Forgot Password?</p>
-            <p>Lorem ipsum dolor sit amet</p>
+            <p>Forgot Password</p>
+            <p>Don't have an account? Register now</p>
             <button type="submit" className="gen-button">SIGN IN</button>
           </form>
         </div>
