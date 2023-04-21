@@ -16,7 +16,7 @@ export default function NavigationBar() {
             <Link to="/aboutus"><button className="pr-6 py-1">ABOUT US</button></Link>
             <Link to="/login"><button className="pr-6 py-1">LOG IN</button></Link>
             <Link to="/dashboard"><button className="pr-6 py-1">Dashboard (Temp)</button></Link>
-            <Link to="/userdashboard"><button className="pr-6 py-1">UserDashboard (Temp)</button></Link>
+            <Link to="/userdashboard"><button className="pr-6 py-1">UserDashboard (Protected)</button></Link>
             <Link to="/record"><button>Record (Temp)</button></Link>
           </div>
         </nav>

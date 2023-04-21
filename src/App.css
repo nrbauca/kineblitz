@@ -172,7 +172,7 @@
   display: flex;
   justify-content: center;
   width: 432px;
-  height: 507px;
+  height: 550px;
 
   padding: 64px 46px;
   border-radius: 32px;
@@ -208,11 +208,11 @@ label{
   margin-bottom: 12px;
 }
 
-input[type="email"]{
+input[type="text"]{
   margin-bottom: 24px;
 }
 
-input[type="email"], input[type="password"]{
+input[type="text"], input[type="password"]{
   width: 340px;
   height: 40px;
   border-radius: 5px;
@@ -230,18 +230,18 @@ p{
   color: var(--main-white);
 }
 
-button[type=submit]{
+.login-buttons{
   width: 340px;
   height: 40px;
-border: none;
+  border: none;
   border-radius: 5PX;
-  margin-top: 64px;
-padding: 8px 15px 8px 15px;
-background: var(--accent-blue);
-color: var(--main-black);
+  margin-top: 25px;
+  padding: 8px 15px 8px 15px;
+  background: var(--accent-blue);
+  color: var(--main-black);
 }
 
-button[type=submit]:hover{
+.login-buttons:hover{
 background: var(--main-purple) /* temporary */;
 color: var(--main-white);
 }

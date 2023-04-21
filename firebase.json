@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "kineblitz-2d95f",
     "public": "build",
     "ignore": [
       "firebase.json",

@@ -8,6 +8,8 @@ import LogIn from "./Pages/LogIn";
 import Dashboard from './Pages/Dashboard'
 import UserDashboard from './Pages/UserDashboard'
 import Record from './Pages/Record'
+import Register from './Pages/Register'
+import Reset from './Pages/Reset'
 import './App.css';
 
 function App() {
@@ -24,6 +26,8 @@ function App() {
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/userdashboard" element={<UserDashboard />} />
           <Route path="/record" element={<Record />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/reset" element={<Reset />} />
         </Routes>
       </BrowserRouter>
     </div>
