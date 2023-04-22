@@ -150,16 +150,16 @@
     }
   
 /* LOGIN FORM */
-.login-bg {
+/* .login-bg {
   position: fixed;
   top: 20px;
   left: 0;
   width: 1550px;
   height: 100%;
-  /* background: url(Hallway_Background.jpg) no-repeat center center; */
+  background: url(Hallway_Background.jpg) no-repeat center center;
   background-size: cover;
   filter: blur(2px);
-}
+} */
 
 .login {
   display: flex;
@@ -179,24 +179,24 @@
   background: var(--main-blue);
 }
 
-form > h3 {
+.login-title {
   position: relative;
   width: 340px;
   height: 26px;
   font-weight: 700;
   font-size: 32px;
   line-height: 100%;
-  margin-bottom: 63px;
+  margin-bottom: 40px;
   color: var(--main-white);
 }
 
-.input-container{
+.input-container {
   width: 340px;
   height: 64px;
   margin-bottom: 24px;
 }
 
-label{
+label {
   position: relative;
   font-weight: 400;
   font-size: 16px;
@@ -208,11 +208,11 @@ label{
   margin-bottom: 12px;
 }
 
-input[type="text"]{
+input[type="email"], input[type="text"]{
   margin-bottom: 24px;
 }
 
-input[type="text"], input[type="password"]{
+input[type="email"], input[type="password"], input[type="text"]{
   width: 340px;
   height: 40px;
   border-radius: 5px;
@@ -245,6 +245,112 @@ p{
 background: var(--main-purple) /* temporary */;
 color: var(--main-white);
 }
+
+/* RESET */
+.reset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 200px;
+}
+.reset-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 432px;
+  height: 350px;
+
+  padding: 64px 46px;
+  border-radius: 32px;
+  background: var(--main-red);
+}
+
+.reset-title {
+  position: relative;
+  width: 340px;
+  height: 26px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+  margin-bottom: 40px;
+  color: var(--main-white);
+}
+
+.reset-button {
+  width: 340px;
+  height: 40px;
+  border: none;
+  border-radius: 5PX;
+  margin-top: 25px;
+  padding: 8px 15px 8px 15px;
+  background: var(--accent-blue);
+  color: var(--main-black);
+  font-size: 18px; 
+}
+
+.reset-button:hover {
+  background: var(--accent-red);
+  color: var(--main-black);
+}
+
+/* .reset div {
+  margin-top: 7px;
+  font-size: 13px;
+  color: white;
+} */
+
+/* REGISTER */
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 200px;
+}
+
+.register-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 432px;
+  height: 530px;
+
+  padding: 64px 46px;
+  border-radius: 32px;
+  background: var(--main-blue);
+}
+
+.register-title {
+  position: relative;
+  width: 340px;
+  height: 26px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+  margin-bottom: 40px;
+  color: var(--main-white);
+}
+
+.register-buttons {
+  width: 340px;
+  height: 40px;
+  border: none;
+  border-radius: 5PX;
+  margin-top: 25px;
+  padding: 8px 15px 8px 15px;
+  background: var(--accent-blue);
+  color: var(--main-black);
+}
+
+.register-buttons:hover {
+background: var(--main-purple);
+color: var(--main-white);
+}
+
+/* .register div {
+  margin-top: 7px;
+  font-size: 13px;
+  color: white;
+} */
 
 /* DASHBOARD */
 .dashboard{

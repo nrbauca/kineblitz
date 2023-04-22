@@ -4,7 +4,7 @@ import NavigationBar from "./Components/NavigationBar";
 import Home from './Pages/Home';
 import Kineblitz from './Pages/Kineblitz';
 import AboutUs from './Pages/AboutUs';
-import LogIn from "./Pages/LogIn";
+import Login from "./Pages/Login";
 import Dashboard from './Pages/Dashboard'
 import UserDashboard from './Pages/UserDashboard'
 import Record from './Pages/Record'
@@ -22,7 +22,7 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/kineblitz" element={<Kineblitz />} />
           <Route path="/aboutus" element={<AboutUs />} />
-          <Route path="/login" element={<LogIn />} />
+          <Route path="/login" element={<Login />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/userdashboard" element={<UserDashboard />} />
           <Route path="/record" element={<Record />} />

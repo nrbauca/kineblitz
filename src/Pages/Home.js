@@ -1,6 +1,6 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import kineblitzlogo from '../Images/KINEBLITZ_Logo.png'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import kineblitzlogo from '../Images/KINEBLITZ_Logo.png';
 
 export default function Home() {
   return (

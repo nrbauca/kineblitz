@@ -1,5 +1,5 @@
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
+import { initializeApp } from 'firebase/app';
+import { getAnalytics } from 'firebase/analytics';
 import {
     GoogleAuthProvider,
     getAuth,
@@ -8,7 +8,7 @@ import {
     createUserWithEmailAndPassword,
     sendPasswordResetEmail,
     signOut
-} from "firebase/auth";
+} from 'firebase/auth';
 import {
     getFirestore,
     query,
@@ -16,7 +16,7 @@ import {
     collection,
     where,
     addDoc
-} from "firebase/firestore";
+} from 'firebase/firestore';
 
 const firebaseConfig = {
   apiKey: "AIzaSyC15wmWTnfzXP0grkdCk8BmJUlElBDc3_o",
