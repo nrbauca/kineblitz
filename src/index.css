@@ -30,6 +30,7 @@ html {
 /* GENERAL STYLES */
 .gen-button {
     box-shadow: 3px 3px 4px #2f2f2f86;
+    font-size: 18px;
 }
 
 .row {
@@ -44,13 +45,13 @@ html {
     flex-direction: column;
 }
 
-.center{
+.center {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-.right{
+.right {
     text-align: right;
 }

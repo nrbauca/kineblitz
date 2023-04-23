@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import hallway from '../Images/Hallway_Background.jpg';
 import { useAuthState } from 'react-firebase-hooks/auth';
-import { useNavigate, Link } from 'react-router-dom';
-import { auth, sendPasswordReset } from '../firebase_setup/firebase';
+import { Link, useNavigate } from 'react-router-dom';
+import { auth, sendPasswordReset } from '../FirebaseSetup/firebase';
 
 export default function Reset() {
   const [email, setEmail] = useState("");
@@ -17,7 +17,6 @@ export default function Reset() {
   return (
     <div>
     <img src={hallway} alt="hallway background" className="fixed top-[20px] w-[1550px] h-full bg-cover blur-[2px]" />
-    
     <div className="reset">
       <div className="reset-container">
         <div className="login-form">
@@ -28,9 +27,9 @@ export default function Reset() {
           onChange={(e) => setEmail(e.target.value)}
           placeholder="Email Address"
         />
-        <p>Don't have an account? <Link to="/register" className="underline hover:text-stone-400">Register</Link> now</p>
+        <p>Don't have an account? <Link to="/register" className="underline hover:text-stone-400">Register now!</Link></p>
         <button
-          className="reset-button"
+          className="gen-button reset-button"
           onClick={() => sendPasswordReset(email)}
         >
           Send Password Reset Email

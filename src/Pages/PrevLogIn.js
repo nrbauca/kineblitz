@@ -1,7 +1,7 @@
 // import React, { useEffect, useState } from 'react';
 // import hallway from '../Images/Hallway_Background.jpg'
 // import {Link, useNavigate } from 'react-router-dom';
-// import { auth, logInWithEmailAndPassword, signInWithGoogle } from '../firebase_setup/firebase';
+// import { auth, logInWithEmailAndPassword, signInWithGoogle } from '../FirebaseSetup/firebase';
 // import { useAuthState } from 'react-firebase-hooks/auth';
 
 // export default function LogIn() {
@@ -23,7 +23,7 @@
 //       <div className="login-bg" />
 //       <main className="login">
 //         <div className="login-container">
-//           <form className="login-form">
+//           <form action className="login-form">
 //             <h3>SIGN IN</h3>
 //             <label>Email Address
 //               <input type="text" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Email Address" className="text-black" />

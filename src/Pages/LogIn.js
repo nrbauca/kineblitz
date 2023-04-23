@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import hallway from '../Images/Hallway_Background.jpg';
 import { Link, useNavigate } from 'react-router-dom';
-import { auth, logInWithEmailAndPassword, signInWithGoogle } from '../firebase_setup/firebase';
+import { auth, logInWithEmailAndPassword, signInWithGoogle } from '../FirebaseSetup/firebase';
 import { useAuthState } from 'react-firebase-hooks/auth';
 
 export default function Login() {
@@ -33,8 +33,7 @@ export default function Login() {
             onChange={(e) => setEmail(e.target.value)}
             placeholder="Email Address"
             />
-          </label>
-          <label>
+          
             Password
             <input
             type="password"
@@ -45,11 +44,11 @@ export default function Login() {
             />
           </label>
           <p><Link to="/reset" className="underline hover:text-stone-400">Forgot Password</Link></p>
-          <p>Don't have an account? <Link to="/register" className="underline hover:text-stone-400">Register</Link> now</p>
-          <button className="login-buttons" onClick={() => logInWithEmailAndPassword(email, password)}>
+          <p>Don't have an account? <Link to="/register" className="underline hover:text-stone-400">Register now!</Link></p>
+          <button className="gen-button login-buttons" onClick={() => logInWithEmailAndPassword(email, password)}>
             SIGN IN
           </button>
-          <button className="login-buttons" onClick={signInWithGoogle}>
+          <button className="gen-button login-buttons" onClick={signInWithGoogle}>
             SIGN IN WITH GOOGLE
           </button>
         </div>

@@ -29,7 +29,7 @@
         margin-right: 32px;
     }
     
-    .home-logo > img{
+    .home-logo > img {
         width: 450px;
         height: 450px;
         margin-top: 32px;
@@ -50,7 +50,7 @@
         text-transform: uppercase;
     }
     
-    .home-title{
+    .home-title {
         width: 532px;
         height: 140px;
         font-style: normal;
@@ -75,7 +75,7 @@
         color: var(--main-purple);
     }
     
-    .home-headline button{
+    .home-headline button {
         width: 220px;
         height: 44px;
         border: none;
@@ -85,14 +85,14 @@
         color: var(--main-black);
     }
     
-    .home-headline button:hover{
+    .home-headline button:hover {
         border: var(--accent-blue);
         background: var(--main-blue);
         color: var(--main-white);
     }
     
-        /* FEATURE - SECOND PART */
-    .feature-container{
+    /* FEATURE - SECOND PART */
+    .feature-container {
         width: 100%;
         height: 100vh;
         position: relative;
@@ -104,7 +104,7 @@
     }
     
     
-    .feature-1, .feature-2{
+    .feature-1, .feature-2 {
         width: 920px;
         height: 300px;
         /* border: #2F2F2F solid; */
@@ -125,7 +125,7 @@
         margin-left: 80px;
     }
     
-    .feature-details{
+    .feature-details {
         width: 540px;
         height: 180px;
     }
@@ -167,6 +167,7 @@
   align-items: center;
   margin: 142px;
 }
+
 .login-container {
   position: relative;
   display: flex;
@@ -208,11 +209,11 @@ label {
   margin-bottom: 12px;
 }
 
-input[type="email"], input[type="text"]{
+input[type="email"], input[type="text"] {
   margin-bottom: 24px;
 }
 
-input[type="email"], input[type="password"], input[type="text"]{
+input[type="email"], input[type="password"], input[type="text"] {
   width: 340px;
   height: 40px;
   border-radius: 5px;
@@ -220,17 +221,17 @@ input[type="email"], input[type="password"], input[type="text"]{
   padding: 8px;
 }
 
-input[type="password"]{
-  margin-bottom: 12px;
+input[type="password"] {
+  margin-bottom: 24px;
 }
 
-p{
+p {
   font-weight: 400;
   font-size: 13px;
   color: var(--main-white);
 }
 
-.login-buttons{
+.login-buttons {
   width: 340px;
   height: 40px;
   border: none;
@@ -241,7 +242,7 @@ p{
   color: var(--main-black);
 }
 
-.login-buttons:hover{
+.login-buttons:hover {
 background: var(--main-purple) /* temporary */;
 color: var(--main-white);
 }
@@ -285,7 +286,7 @@ color: var(--main-white);
   padding: 8px 15px 8px 15px;
   background: var(--accent-blue);
   color: var(--main-black);
-  font-size: 18px; 
+  /* font-size: 18px; */
 }
 
 .reset-button:hover {
@@ -304,15 +305,15 @@ color: var(--main-white);
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 200px;
+  margin: 142px;
 }
 
 .register-container {
   position: relative;
   display: flex;
   justify-content: center;
-  width: 432px;
-  height: 530px;
+  width: 800px;
+  height: 550px;
 
   padding: 64px 46px;
   border-radius: 32px;
@@ -321,7 +322,7 @@ color: var(--main-white);
 
 .register-title {
   position: relative;
-  width: 340px;
+  width: 165px;
   height: 26px;
   font-weight: 700;
   font-size: 32px;
@@ -353,13 +354,13 @@ color: var(--main-white);
 } */
 
 /* DASHBOARD */
-.dashboard{
+.dashboard {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.dashboard-container{
+.dashboard-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -369,7 +370,7 @@ color: var(--main-white);
   margin-top: 150px;
 }
 
-.dashboard-welcome{
+.dashboard-welcome {
   position: relative;
   flex-direction: row;
 
@@ -378,16 +379,16 @@ color: var(--main-white);
   margin-bottom: 72px;
   padding: 12px;
 }
-  .dashboard-header{
+  .dashboard-header {
       font-weight: 600;
       font-size: 50px;
       margin-bottom: 16px;
       color: var(--main-blue);
   }
-  .dashboard-user{
+  .dashboard-user {
       text-decoration-line: underline;
   }
-  .dashboard-instruction{
+  .dashboard-instruction {
       font-style: italic;
       font-weight: 400;
       font-size: 20px;
@@ -403,7 +404,7 @@ color: var(--main-white);
   flex-direction: row;
   gap: 64px;
 }
-  .dashboard-options button[type="submit"]{
+  .dashboard-options button[type="submit"] {
       height: 250px;
       width: 250px;
       border-radius: 16px;
@@ -413,7 +414,7 @@ color: var(--main-white);
       font-weight: 400;
       font-size: 35px;
   }
-  .dashboard-options button[type="submit"]:hover{
+  .dashboard-options button[type="submit"]:hover {
       background-color: var(--accent-blue);
       color: var(--main-black);
   }
@@ -460,15 +461,17 @@ color: var(--main-white);
       font-weight: 700;
       font-size: 40px;
       margin-bottom: 16px;
+      color: var(--main-black);
   }
   .birth-date, .age, .id-num, .condition {
       padding-left: 20px;
       font-weight: 400;
       font-size: 20px;
       line-height: 30px;
+      color: var(--main-black);
   }
   
-.user-container h3{
+.user-container h3 {
   width: 1044px;
   height: 60px;
   background-color: var(--accent-red);
@@ -486,7 +489,7 @@ color: var(--main-white);
   position: relative;
   gap: 32px;
 }
-  .user-records button[type="submit"]{
+  .user-records button[type="submit"] {
       width: 320px;
       height: 50px;
       border-radius: 16px;
@@ -494,7 +497,7 @@ color: var(--main-white);
       border: none;
       background-color:var(--accent-blue);
   }
-  .user-records button[type="submit"]:hover{
+  .user-records button[type="submit"]:hover {
       background-color: var(--main-blue);
       color: var(--main-white);
   }
@@ -505,7 +508,7 @@ color: var(--main-white);
   margin-top: 115px;
   color: var(--main-blue);
 }
-  .au h1{
+  .au h1 {
       font-weight: 700;
       font-size: 50px;
       margin-bottom: 50px;
@@ -522,16 +525,16 @@ color: var(--main-white);
           border: var(--main-black) solid;
           margin-right: 32px;
       }
-      .plm-details{
+      .plm-details {
           width: 852px;
       }
-          .plm-title{
+          .plm-title {
               font-weight: 700;
               font-size: 32px;
               margin-bottom: 16px;
 
           }
-          .plm-description{
+          .plm-description {
               font-weight: 400;
               font-size: 20px;
               text-align: justify;
@@ -547,22 +550,22 @@ color: var(--main-white);
           margin-left: 32px;
           margin-top: 20px;
       }
-      .penta-details{
+      .penta-details {
           width: 852px;
       }
-          .penta-title{
+          .penta-title {
               font-weight: 700;
               font-size: 32px;
               margin-bottom: 16px;
               
           }
-          .penta-description{
+          .penta-description {
               font-weight: 400;
               font-size: 20px;
               text-align: justify;
           }
 
-.theTeam{
+.theTeam {
   width: 100%;
   height: 657px;
   background-color: var(--main-blue);
@@ -572,7 +575,7 @@ color: var(--main-white);
   color: var(--main-white);
 }
 
-.theTeam-container{
+.theTeam-container {
   width: 1171px;
   height: 501px;
   margin: 78px 135px;
@@ -584,7 +587,7 @@ color: var(--main-white);
       margin-bottom: 64px;
   }
 
-.member-container{
+.member-container {
   width: 1160px;
   height: 377px;
   display: flex;
@@ -593,14 +596,14 @@ color: var(--main-white);
   text-align: center;
   gap: 56px;
 }
-  .member{
+  .member {
       width: 190px;
       height: 386px;
       background-color: var(--main-white);
       color: var(--main-black);
       /* border: white soid; */
   }
-  .member img{
+  .member img {
       width: 150px;
       height: 150px;
       margin: 16px;
