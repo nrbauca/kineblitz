@@ -72,7 +72,7 @@ const registerWithEmailAndPassword = async (name, email, password, birthday, age
         await addDoc(collection(firestore, "users"), {
             uid:user.uid,
             name,
-            authProvider: "local",
+            authProvider: "pentabyte",
             email,
             birthday,
             age,
@@ -98,6 +98,22 @@ const logout = () => {
     signOut(auth);
 };
 
+const registerAuthWithEmailAndPassword = async (name, email, password) => {
+    try {
+        const res = await createUserWithEmailAndPassword(auth, email, password);
+        const user = res.user;
+        await addDoc(collection(firestore, "professionals"), {
+            uid:user.uid,
+            name,
+            authProvider: "pentabyte",
+            email,
+        });
+    } catch (err) {
+        console.error(err);
+        alert(err.message);
+    }
+};
+
 export {
     auth,
     analytics,
@@ -107,4 +123,5 @@ export {
     registerWithEmailAndPassword,
     sendPasswordReset,
     logout,
+    registerAuthWithEmailAndPassword,
 };

@@ -5,11 +5,14 @@ import Home from './Pages/Home';
 import Kineblitz from './Pages/Kineblitz';
 import AboutUs from './Pages/AboutUs';
 import Login from "./Pages/Login";
-import Dashboard from './Pages/Dashboard'
-import UserDashboard from './Pages/UserDashboard'
-import Record from './Pages/Record'
-import Register from './Pages/Register'
-import Reset from './Pages/Reset'
+import Dashboard from './Pages/Dashboard';
+import UserDashboard from './Pages/UserDashboard';
+import Record from './Pages/Record';
+import Register from './Pages/Register';
+import Reset from './Pages/Reset';
+import LoginAuth from './Pages/LoginAuth';
+import RegisterAuth from './Pages/RegisterAuth';
+import ResetAuth from './Pages/ResetAuth';
 import './App.css';
 
 function App() {
@@ -28,6 +31,9 @@ function App() {
           <Route path="/record" element={<Record />} />
           <Route path="/register" element={<Register />} />
           <Route path="/reset" element={<Reset />} />
+          <Route path="/loginauth" element={<LoginAuth />} />
+          <Route path="/registerauth" element={<RegisterAuth />} />
+          <Route path="/resetauth" element={<ResetAuth />} />
         </Routes>
       </BrowserRouter>
     </div>

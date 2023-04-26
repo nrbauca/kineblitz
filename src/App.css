@@ -247,6 +247,136 @@ background: var(--main-purple) /* temporary */;
 color: var(--main-white);
 }
 
+/* LOGINAUTH */
+.loginauth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 142px;
+}
+
+.loginauth-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 432px;
+  height: 550px;
+
+  padding: 64px 46px;
+  border-radius: 32px;
+  background: var(--main-black);
+}
+
+.loginauth-title {
+  position: relative;
+  width: 340px;
+  height: 26px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+  margin-bottom: 40px;
+  color: var(--main-white);
+}
+
+.input-container {
+  width: 340px;
+  height: 64px;
+  margin-bottom: 24px;
+}
+
+.loginauth-label {
+  position: relative;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+
+  width: 106px;
+  height: 12px;
+  color: var(--main-white);
+  margin-bottom: 12px;
+}
+
+.loginauth-buttons {
+  width: 340px;
+  height: 40px;
+  border: none;
+  border-radius: 5PX;
+  margin-top: 25px;
+  padding: 8px 15px 8px 15px;
+  background: var(--accent-blue);
+  color: var(--main-black);
+}
+
+.loginauth-buttons:hover {
+background: var(--main-purple) /* temporary */;
+color: var(--main-white);
+}
+
+/* PASS */
+.pass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 142px;
+}
+
+.pass-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 432px;
+  height: 550px;
+
+  padding: 64px 46px;
+  border-radius: 32px;
+  background: var(--main-black);
+}
+
+.pass-title {
+  position: relative;
+  width: 340px;
+  height: 26px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+  margin-bottom: 40px;
+  color: var(--main-white);
+}
+
+.input-container {
+  width: 340px;
+  height: 64px;
+  margin-bottom: 24px;
+}
+
+.pass-label {
+  position: relative;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+
+  width: 106px;
+  height: 12px;
+  color: var(--main-white);
+  margin-bottom: 12px;
+}
+
+.pass-buttons {
+  width: 340px;
+  height: 40px;
+  border: none;
+  border-radius: 5PX;
+  margin-top: 25px;
+  padding: 8px 15px 8px 15px;
+  background: var(--accent-blue);
+  color: var(--main-black);
+}
+
+.pass-buttons:hover {
+background: var(--main-purple) /* temporary */;
+color: var(--main-white);
+}
+
 /* RESET */
 .reset {
   display: flex;
@@ -300,6 +430,59 @@ color: var(--main-white);
   color: white;
 } */
 
+/* RESETAUTH */
+.resetauth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 200px;
+}
+.resetauth-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 432px;
+  height: 350px;
+
+  padding: 64px 46px;
+  border-radius: 32px;
+  background: var(--main-red);
+}
+
+.resetauth-title {
+  position: relative;
+  width: 340px;
+  height: 26px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+  margin-bottom: 40px;
+  color: var(--main-white);
+}
+
+.resetauth-button {
+  width: 340px;
+  height: 40px;
+  border: none;
+  border-radius: 5PX;
+  margin-top: 25px;
+  padding: 8px 15px 8px 15px;
+  background: var(--accent-blue);
+  color: var(--main-black);
+  /* font-size: 18px; */
+}
+
+.resetauth-button:hover {
+  background: var(--accent-red);
+  color: var(--main-black);
+}
+
+/* .reset div {
+  margin-top: 7px;
+  font-size: 13px;
+  color: white;
+} */
+
 /* REGISTER */
 .register {
   display: flex;
@@ -343,6 +526,59 @@ color: var(--main-white);
 }
 
 .register-buttons:hover {
+background: var(--main-purple);
+color: var(--main-white);
+}
+
+/* .register div {
+  margin-top: 7px;
+  font-size: 13px;
+  color: white;
+} */
+
+/* REGISTERAUTH */
+.registerauth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 142px;
+}
+
+.registerauth-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 800px;
+  height: 550px;
+
+  padding: 64px 46px;
+  border-radius: 32px;
+  background: var(--main-black);
+}
+
+.registerauth-title {
+  position: relative;
+  width: 165px;
+  height: 26px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+  margin-bottom: 40px;
+  color: var(--main-white);
+}
+
+.registerauth-buttons {
+  width: 340px;
+  height: 40px;
+  border: none;
+  border-radius: 5PX;
+  margin-top: 25px;
+  padding: 8px 15px 8px 15px;
+  background: var(--accent-blue);
+  color: var(--main-black);
+}
+
+.registerauth-buttons:hover {
 background: var(--main-purple);
 color: var(--main-white);
 }
