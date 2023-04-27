@@ -7,7 +7,7 @@
         flex-direction: column;
         position: relative;
         /* margin-top: 100px; */
-        color: var(--main-purple);
+        color: var(--main-blue);
     }
     
     .home-container {
@@ -43,7 +43,7 @@
         font-size: 16px;
         line-height: 16px;
         margin-bottom: 20px;
-        color: var(--main-purple);
+        color: var(--main-blue);
         
         display: flex;
         align-items: flex-end;
@@ -72,7 +72,7 @@
         font-size: 16px;
         line-height: 24px;
         text-transform: capitalize;
-        color: var(--main-purple);
+        color: var(--main-blue);
     }
     
     .home-headline button {
@@ -81,14 +81,14 @@
         border: none;
         border-radius: 5px;
         padding: 8px 15px 8px 15px;
-        background: var(--accent-blue);
-        color: var(--main-black);
+        background: var(--main-blue);
+        color: var(--main-white);
     }
     
     .home-headline button:hover {
         border: var(--accent-blue);
-        background: var(--main-blue);
-        color: var(--main-white);
+        background: var(--accent-blue);
+        color: var(--main-black);
     }
     
     /* FEATURE - SECOND PART */

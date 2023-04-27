@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-// import hallway from '../Images/Hallway_Background.jpg';
+import hallway from '../Images/Hallway_Background.jpg';
 import { Link, useNavigate } from 'react-router-dom';
 import { auth, logInWithEmailAndPassword, signInWithGoogle } from '../FirebaseSetup/firebase';
 import { useAuthState } from 'react-firebase-hooks/auth';
@@ -19,7 +19,7 @@ export default function LoginAuth() {
 
   return (
     <div>
-    {/* <img src={hallway} alt="hallway background" className="fixed top-[20px] w-[1550px] h-full bg-cover blur-[2px]" /> */}
+    <img src={hallway} alt="hallway background" className="fixed top-[20px] w-[1550px] h-full bg-cover blur-[2px]" />
     <main className="loginauth">
       <div className="loginauth-container">
         <div className="login-form">

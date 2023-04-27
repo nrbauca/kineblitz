@@ -1,11 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import kineblitzlogo from '../Images/KINEBLITZ_Logo.png';
+import homepage from '../Images/homepage.png';
 
 export default function Home() {
   return (
     <div>
-
+      
+      <img src={homepage} alt="home background" className="fixed top-[20px] w-[1550px] h-full bg-cover blur-[0px]" />
       <main className="home">
         <section className="home-container">
           <div className="home-headline">
