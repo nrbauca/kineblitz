@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import NavigationBar from "./Components/NavigationBar";
 import Home from './Pages/Home';
-import Kineblitz from './Pages/Pass';
+import Kineblitz from './Pages/Kineblitz';
 import AboutUs from './Pages/AboutUs';
 import Login from "./Pages/Login";
 import Dashboard from './Pages/Dashboard';
