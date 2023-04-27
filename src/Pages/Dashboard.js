@@ -12,7 +12,7 @@ export default function Dashboard() {
 
     const fetchUserName = async () => {
         try {
-            const q = query(collection(firestore, "professionals"), where("uid", "==", user?.uid));
+            const q = query(collection(firestore, "physicians"), where("uid", "==", user?.uid));
             const doc = await getDocs(q);
             const data = doc.docs[0].data();
 

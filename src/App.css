@@ -182,13 +182,21 @@
 
 .login-title {
   position: relative;
-  width: 340px;
+  width: 120px;
   height: 26px;
   font-weight: 700;
   font-size: 32px;
   line-height: 100%;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   color: var(--main-white);
+}
+
+.user-pat {
+  width: 65px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: var(--main-white);
+
 }
 
 .input-container {
@@ -255,6 +263,7 @@ color: var(--main-white);
   margin: 142px;
 }
 
+
 .loginauth-container {
   position: relative;
   display: flex;
@@ -269,13 +278,21 @@ color: var(--main-white);
 
 .loginauth-title {
   position: relative;
-  width: 340px;
+  width: 120px;
   height: 26px;
   font-weight: 700;
   font-size: 32px;
   line-height: 100%;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   color: var(--main-white);
+}
+
+.user-phy {
+  width: 85px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: var(--main-white);
+
 }
 
 .input-container {
@@ -312,71 +329,6 @@ background: var(--main-purple) /* temporary */;
 color: var(--main-white);
 }
 
-/* PASS */
-.pass {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 142px;
-}
-
-.pass-container {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  width: 432px;
-  height: 550px;
-
-  padding: 64px 46px;
-  border-radius: 32px;
-  background: var(--main-black);
-}
-
-.pass-title {
-  position: relative;
-  width: 340px;
-  height: 26px;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 100%;
-  margin-bottom: 40px;
-  color: var(--main-white);
-}
-
-.input-container {
-  width: 340px;
-  height: 64px;
-  margin-bottom: 24px;
-}
-
-.pass-label {
-  position: relative;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 32px;
-
-  width: 106px;
-  height: 12px;
-  color: var(--main-white);
-  margin-bottom: 12px;
-}
-
-.pass-buttons {
-  width: 340px;
-  height: 40px;
-  border: none;
-  border-radius: 5PX;
-  margin-top: 25px;
-  padding: 8px 15px 8px 15px;
-  background: var(--accent-blue);
-  color: var(--main-black);
-}
-
-.pass-buttons:hover {
-background: var(--main-purple) /* temporary */;
-color: var(--main-white);
-}
-
 /* RESET */
 .reset {
   display: flex;
@@ -398,7 +350,7 @@ color: var(--main-white);
 
 .reset-title {
   position: relative;
-  width: 340px;
+  width: 290px;
   height: 26px;
   font-weight: 700;
   font-size: 32px;
@@ -451,7 +403,7 @@ color: var(--main-white);
 
 .resetauth-title {
   position: relative;
-  width: 340px;
+  width: 290px;
   height: 26px;
   font-weight: 700;
   font-size: 32px;
@@ -548,7 +500,7 @@ color: var(--main-white);
   position: relative;
   display: flex;
   justify-content: center;
-  width: 800px;
+  width: 432px;
   height: 550px;
 
   padding: 64px 46px;
@@ -588,6 +540,79 @@ color: var(--main-white);
   font-size: 13px;
   color: white;
 } */
+
+/* PASS */
+.pass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 200px;
+}
+
+.pass-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 432px;
+  height: 350px;
+
+  padding: 64px 46px;
+  border-radius: 32px;
+  background: var(--main-black);
+}
+
+.pass-title {
+  position: relative;
+  width: 175px;
+  height: 26px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+  margin-bottom: 10px;
+  color: var(--main-white);
+}
+
+.pass-auth {
+  width: 185px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: var(--main-white);
+
+}
+
+.input-container {
+  width: 340px;
+  height: 64px;
+  margin-bottom: 24px;
+}
+
+.pass-label {
+  position: relative;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+
+  width: 106px;
+  height: 12px;
+  color: var(--main-white);
+  margin-bottom: 12px;
+}
+
+.pass-buttons {
+  width: 340px;
+  height: 40px;
+  border: none;
+  border-radius: 5PX;
+  margin-top: 25px;
+  padding: 8px 15px 8px 15px;
+  background: var(--accent-blue);
+  color: var(--main-black);
+}
+
+.pass-buttons:hover {
+background: var(--main-purple) /* temporary */;
+color: var(--main-white);
+}
 
 /* DASHBOARD */
 .dashboard {

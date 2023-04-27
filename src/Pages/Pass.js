@@ -11,21 +11,25 @@ export default function Pass() {
     <main className="pass">
       <div className="pass-container">
         <div className="login-form">
-          <h3 className="pass-title">ADMIN</h3>
+
+          <div className="grid place-items-center">
+          <h3 className="pass-title">PHYSICIAN</h3>
+          <h4 className="pass-auth">Authentication Code</h4>
+          </div>
+
           <label className="pass-label">
-            Authentication Code
             <input
             type="email"
             className="text-black"
             // value={email}
             // onChange={(e) => setEmail(e.target.value)}
-            placeholder=""
+            placeholder="Authentication Code"
             />
           </label>
           {/* <p><Link to="/resetcopy" className="underline hover:text-stone-400">Forgot Password</Link></p>
           <p>Don't have an account? <Link to="/registercopy" className="underline hover:text-stone-400">Register now!</Link></p> */}
           <button className="gen-button pass-buttons" onClick={() => logInWithEmailAndPassword()}>
-            SIGN IN
+            AUTHENTICATE
           </button>
         </div>
       </div>

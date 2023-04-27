@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import pentabytelogo from '../Images/Pentabyte_Logo.png'
 import kineblitzhome from '../Images/Kineblitz_Home.png'
+import kineblitzlock from '../Images/Kineblitz_Lock.png'
 export default function NavigationBar() {
   return (
     <div>
@@ -20,8 +21,9 @@ export default function NavigationBar() {
             <Link to="/kineblitz"><button className="pr-6 py-1">KINEBLITZ</button></Link>
             <Link to="/aboutus"><button className="pr-6 py-1">ABOUT US</button></Link>
             <Link to="/login"><button className="pr-6 py-1">LOG IN</button></Link>
+            <Link to="/userdashboard"><button className="pr-6 py-1">DASHBOARD</button></Link>
             <Link to="/home"><button className="w-[45px] md:w-[55px] pr-6 py-1"><img src={kineblitzhome} alt="home logo" /></button></Link>
-            
+            <Link to="/dashboard"><button className="w-[45px] md:w-[55px] pr-6 py-1"><img src={kineblitzlock} alt="lock logo" /></button></Link>
           </div>
         </nav>
       </header>

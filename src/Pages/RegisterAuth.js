@@ -32,7 +32,7 @@ export default function RegisterAuth() {
       <div className="registerauth-container">
         <div className="login-form">
         <h3 className="registerauth-title mx-auto">REGISTER</h3>
-        <div className="flex space-x-[24px]">
+        {/* <div className="flex space-x-[24px]"> */}
           <div>
             <label>
               Full Name
@@ -94,7 +94,7 @@ export default function RegisterAuth() {
               />
             </label>
           </div> */}
-        </div>
+        {/* </div> */}
 
         <div className="grid place-items-center">
         <p>Already have an account? <Link to="/loginauth" className="underline hover:text-stone-400">Sign in now!</Link></p>

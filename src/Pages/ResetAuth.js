@@ -20,7 +20,11 @@ export default function ResetAuth() {
     <div className="resetauth">
       <div className="resetauth-container">
         <div className="login-form">
+
+        <div className="grid place-items-center">
         <h3 className="resetauth-title">RESET PASSWORD</h3>
+        </div>
+
         <input
           type="text"
           value={email}

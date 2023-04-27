@@ -20,7 +20,11 @@ export default function Reset() {
     <div className="reset">
       <div className="reset-container">
         <div className="login-form">
+        
+        <div className="grid place-items-center">
         <h3 className="reset-title">RESET PASSWORD</h3>
+        </div>
+
         <input
           type="text"
           value={email}

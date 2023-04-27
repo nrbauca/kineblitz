@@ -23,7 +23,12 @@ export default function LoginAuth() {
     <main className="loginauth">
       <div className="loginauth-container">
         <div className="login-form">
+
+          <div className="grid place-items-center">
           <h3 className="loginauth-title">SIGN IN</h3>
+          <h4 className="user-phy">Physician</h4>
+          </div>
+
           <label className="loginauth-label">
             Email Address
             <input

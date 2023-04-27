@@ -23,7 +23,12 @@ export default function Login() {
     <main className="login">
       <div className="login-container">
         <div className="login-form">
+
+          <div className="grid place-items-center">
           <h3 className="login-title">SIGN IN</h3>
+          <h4 className="user-pat">Patient</h4>
+          </div>
+
           <label>
             Email Address
             <input

@@ -40,10 +40,10 @@ const signInWithGoogle = async () => {
     try {
         const res = await signInWithPopup(auth, googleProvider);
         const user = res.user;
-        const q = query(collection(firestore, "users"), where("uid", "==", user.id));
+        const q = query(collection(firestore, "patients"), where("uid", "==", user.id));
         const docs = await getDocs(q);
         if (docs.docs.length === 0) {
-            await addDoc(collection(firestore, "users"), {
+            await addDoc(collection(firestore, "patients"), {
                 uid: user.uid,
                 name: user.displayName,
                 authProvider: "google",
@@ -69,7 +69,7 @@ const registerWithEmailAndPassword = async (name, email, password, birthday, age
     try {
         const res = await createUserWithEmailAndPassword(auth, email, password);
         const user = res.user;
-        await addDoc(collection(firestore, "users"), {
+        await addDoc(collection(firestore, "patients"), {
             uid:user.uid,
             name,
             authProvider: "pentabyte",
@@ -102,7 +102,7 @@ const registerAuthWithEmailAndPassword = async (name, email, password) => {
     try {
         const res = await createUserWithEmailAndPassword(auth, email, password);
         const user = res.user;
-        await addDoc(collection(firestore, "professionals"), {
+        await addDoc(collection(firestore, "physicians"), {
             uid:user.uid,
             name,
             authProvider: "pentabyte",

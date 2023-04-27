@@ -14,7 +14,7 @@ export default function UserDashboard() {
 
     const fetchUserName = async () => {
         try {
-            const q = query(collection(firestore, "users"), where("uid", "==", user?.uid));
+            const q = query(collection(firestore, "patients"), where("uid", "==", user?.uid));
             const doc = await getDocs(q);
             const data = doc.docs[0].data();
 
