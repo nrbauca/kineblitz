@@ -11,12 +11,12 @@ export default function Home() {
       <main className="home">
         <section className="home-container">
           <div className="home-headline">
-            <p className="home-subtitle">Lorem ipsum dolor sit amet</p>
-            <h1 className="home-title">LOREM IPSUM DOLOR SIT AMET</h1>
-            <p className="home-description">Lorem ipsum dolor sit amet consectetur. 
-              Cras rhoncus interdum aliquam turpis ac imperdiet et. 
-              Dapibus metus aliquam velit in amet quam egestas augue. 
-              Habitant iaculis blandit faucibus nibh lobortis rutrum massa.</p>
+            <p className="home-subtitle">TRACKING PROGRESS, IMPROVING LIVES</p>
+            <h1 className="home-title">KINEBLITZ</h1>
+            <p className="home-description">Assisting physicians and patients through a centralized system 
+              for patient tracking and incorporating surface Electromyography (sEMG)
+              technology to enhance therapy and habilitation of Cerebral Palsy patients 
+              through a biofeedback game and data-driven insights.</p>
   
               <Link to="/login"><button className="gen-button">LOG IN</button></Link>
   
