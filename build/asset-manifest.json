@@ -1,18 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.00b993ee.css",
-    "main.js": "/static/js/main.0873c241.js",
-    "static/media/homepage.png": "/static/media/homepage.271baa4b2231c8d70c4b.png",
+    "main.css": "/static/css/main.033c9473.css",
+    "main.js": "/static/js/main.adb1a66c.js",
+    "static/media/Homepage.png": "/static/media/Homepage.271baa4b2231c8d70c4b.png",
+    "static/media/PLMBackground.png": "/static/media/PLMBackground.c33cfb595e85a1eae0f8.png",
     "static/media/Hallway_Background.jpg": "/static/media/Hallway_Background.51238ea7c9567fa43463.jpg",
+    "static/media/nacario.jpg": "/static/media/nacario.284b9f0dbecbae7afd4f.jpg",
+    "static/media/bauca.jpeg": "/static/media/bauca.5425000c1fd750590011.jpeg",
+    "static/media/omura.jpg": "/static/media/omura.66195378f601fbcc94bc.jpg",
+    "static/media/francisco.jpg": "/static/media/francisco.85d172979d07456d1d0f.jpg",
     "static/media/KINEBLITZ_Logo.png": "/static/media/KINEBLITZ_Logo.e3d68f97fc5b7a1ca754.png",
-    "static/media/Kineblitz_Home.png": "/static/media/Kineblitz_Home.00eb89a948f28b7bf877.png",
-    "static/media/Kineblitz_Lock.png": "/static/media/Kineblitz_Lock.a247d681db95cf0da798.png",
+    "static/media/PLM_Logo.png": "/static/media/PLM_Logo.e4ffa7ccdb6bb6d64f6d.png",
+    "static/media/Kineblitz_Logout.png": "/static/media/Kineblitz_Logout.4697a0e3b6086e5e5604.png",
+    "static/media/ramos.jpg": "/static/media/ramos.daedd828a9cf1a955109.jpg",
+    "static/media/Pentabyte_Logo2.png": "/static/media/Pentabyte_Logo2.c7989b350ae4af501d47.png",
+    "static/media/Arrow.png": "/static/media/Arrow.bb24bdbc0e20cf436eca.png",
     "index.html": "/index.html",
-    "main.00b993ee.css.map": "/static/css/main.00b993ee.css.map",
-    "main.0873c241.js.map": "/static/js/main.0873c241.js.map"
+    "main.033c9473.css.map": "/static/css/main.033c9473.css.map",
+    "main.adb1a66c.js.map": "/static/js/main.adb1a66c.js.map"
   },
   "entrypoints": [
-    "static/css/main.00b993ee.css",
-    "static/js/main.0873c241.js"
+    "static/css/main.033c9473.css",
+    "static/js/main.adb1a66c.js"
   ]
 }

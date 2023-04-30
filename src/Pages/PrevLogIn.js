@@ -1,5 +1,5 @@
 // import React, { useEffect, useState } from 'react';
-// import hallway from '../Images/Hallway_Background.jpg'
+// import hallway from '../Images/Hallway_Background.jpg';
 // import {Link, useNavigate } from 'react-router-dom';
 // import { auth, logInWithEmailAndPassword, signInWithGoogle } from '../FirebaseSetup/firebase';
 // import { useAuthState } from 'react-firebase-hooks/auth';

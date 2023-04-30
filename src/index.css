@@ -8,11 +8,11 @@
     --main-red: #C32626;
     --main-black: #2F2F2F;
     --main-white: #F2F2F2;
-    --main-purple: #3F008F;
+    /* --main-purple: #3F008F; */
     --bg: #EDEFF3;
     --accent-blue: #CBD8F8;
     --accent-red: #F5C4C4;
-    --accent-purple: #EEE7F3;
+    /* --accent-purple: #EEE7F3; */
 }
 
 * {

@@ -1,13 +1,22 @@
 import React from 'react';
+import plm from '../Images/PLMBackground.png';
+import plmlogo from '../Images/PLM_Logo.png';
+import pentabytelogo2 from '../Images/Pentabyte_Logo2.png';
+import bauca from '../Images/bauca.jpeg';
+import francisco from '../Images/francisco.jpg';
+import nacario from '../Images/nacario.jpg';
+import omura from '../Images/omura.jpg';
+import ramos from '../Images/ramos.jpg';
 
 export default function AboutUs() {
   return (
     <div>'
-        <main>
+      <img src={plm} alt="plm background" className="fixed top-[20px] w-[1550px] h-full bg-cover" />
+      <main>
         <div className="au container">
           <h1>ABOUT US</h1>
           <div className="plm row">
-            <img src alt="PLM Logo" />
+            <img src={plmlogo} alt="PLM Logo" className="object-scale-down" />
             <div className="plm-details">
               <p className="plm-title">PAMANTASAN NG LUNGSOD NG MAYNILA</p>
               <p className="plm-description">
@@ -36,7 +45,7 @@ export default function AboutUs() {
                 aim to provide useful means to their target market.
               </p>
             </div>
-            <img src alt="Pentabyte Logo" />
+            <img src={pentabytelogo2} alt="Pentabyte Logo" className="object-scale-down" />
           </div>
         </div>
         <div className="theTeam column">
@@ -44,7 +53,7 @@ export default function AboutUs() {
             <h1>THE TEAM</h1>
             <div className="member-container row">
               <div className="member gen-button">
-                <img src alt="" />
+                <img src={bauca} alt="Nathalie" />
                 <p className="member-name">NATHALIE BAUCA</p>
                 <p className="member-pos">PROJECT MANAGER</p>
                 <p className="member-des">She is responsible for planning, 
@@ -52,28 +61,28 @@ export default function AboutUs() {
                   She handles the repository.</p>
               </div>
               <div className="member gen-button">
-                <img src alt="" />
+                <img src={francisco} alt="Mark" />
                 <p className="member-name">MARK FRANCISCO</p>
                 <p className="member-pos">PROJECT ANALYST</p>
                 <p className="member-des">He oversees defining and developing 
                   the contents needed for the project and raise solutions.</p>
               </div>
               <div className="member gen-button">
-                <img src alt="" />
+                <img src={nacario} alt="Jella" />
                 <p className="member-name">JELLA NACARIO</p>
                 <p className="member-pos">PROJECT COORDINATOR</p>
                 <p className="member-des">She manages the deliverables according to 
                   the decided plan and establishes the project schedule.</p>
               </div>
               <div className="member gen-button">
-                <img src alt="" />
+                <img src={omura} alt="Nozomi" />
                 <p className="member-name">NOZOMI OMURA</p>
                 <p className="member-pos">PROJECT SPONSOR</p>
                 <p className="member-des">She ensures the availability of resources for 
-                  the team and helps in communicating the project’s goals.</p>
+                  the team and helps in communicating the project's goals.</p>
               </div>
               <div className="member gen-button">
-                <img src alt="" />
+                <img src={ramos} alt="Ralph" />
                 <p className="member-name">RALPH<br />RAMOS</p>
                 <p className="member-pos">PROJECT SPONSOR</p>
                 <p className="member-des">He works closely with the Project Manager in

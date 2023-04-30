@@ -42,7 +42,7 @@
         font-weight: 700;
         font-size: 16px;
         line-height: 16px;
-        margin-bottom: 25px;
+        margin-bottom: 15px;
         color: var(--main-blue);
         
         display: flex;
@@ -52,12 +52,12 @@
     
     .home-title {
         width: 532px;
-        height: /* 70px */ 60px;
+        height: 60px;
         font-style: normal;
         font-weight: /* 700 */ 775;
         font-size: /* 64px */ 80px;
     
-        /* margin-bottom: 20px; */
+        margin-bottom: 15px;
         position: relative;
         display: flex;
         align-items: center;
@@ -66,25 +66,24 @@
     }
     
     .home-description {
-        width: 540px;
+        width: /* 540px */ 520px;
         height: 100px;
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
         /* text-transform: capitalize; */
         color: var(--main-blue);
-        margin-bottom: /* 60px */ 20px;
+        margin-bottom: 60px;
     }
     
     .headline-button {
         width: 220px;
         height: 44px;
-        border-width: 1px;
+        /* border-width: 1px; */
         border-radius: 5px;
         padding: 8px 15px 8px 15px;
         background: var(--main-blue);
         color: var(--main-white);
-        border-color: var(--main-blue);
     }
     
     /* .headline-button:hover {
@@ -161,7 +160,8 @@
   width: 100%;
   color: var(--main-blue);
 }
-  .au h1{
+
+  .au h1 {
       font-weight: 700;
       font-size: 50px;
       margin: 48px;
@@ -177,16 +177,16 @@
           height: 182px;
           margin-right: 32px;
       }
-      .plm-details{
+      .plm-details {
           width: 852px;
       }
-          .plm-title{
+          .plm-title {
               font-weight: 700;
               font-size: 32px;
               margin-bottom: 16px;
 
           }
-          .plm-description{
+          .plm-description {
               font-weight: 400;
               font-size: 20px;
               text-align: justify;
@@ -201,22 +201,22 @@
           margin-left: 32px;
           margin-top: 20px;
       }
-      .penta-details{
+      .penta-details {
           width: 852px;
       }
-          .penta-title{
+          .penta-title {
               font-weight: 700;
               font-size: 32px;
               margin-bottom: 16px;
 
           }
-          .penta-description{
+          .penta-description {
               font-weight: 400;
               font-size: 20px;
               text-align: justify;
           }
 
-.theTeam{
+.theTeam {
   width: 100%;
   height: 657px;
   background-color: var(--main-blue);
@@ -226,7 +226,7 @@
   color: var(--main-white);
 }
 
-.theTeam-container{
+.theTeam-container {
   width: 1171px;
   height: 501px;
   margin: 78px 135px;
@@ -237,7 +237,7 @@
       margin-bottom: 64px;
   }
 
-.member-container{
+.member-container {
   width: 1160px;
   height: 386px;
   display: flex;
@@ -246,7 +246,7 @@
   text-align: center;
   gap: 56px;
 }
-  .member{
+  .member {
       width: 190px;
       height: 386px;
       padding: 5px;
@@ -254,7 +254,7 @@
       background-color: var(--main-white);
       color: var(--main-blue);
   }
-  .member img{
+  .member img {
       width: 150px;
       height: 150px;
       margin: 16px;
@@ -380,7 +380,7 @@ p {
 }
 
 .login-buttons:hover {
-background: var(--main-purple);
+background: #eab150;
 color: var(--main-white);
 }
 
@@ -454,7 +454,7 @@ color: var(--main-white);
 }
 
 .loginauth-buttons:hover {
-background: var(--main-purple);
+background: #eab150;
 color: var(--main-white);
 }
 
@@ -607,7 +607,7 @@ color: var(--main-white);
 }
 
 .register-buttons:hover {
-background: var(--main-purple);
+background: #eab150;
 color: var(--main-white);
 }
 
@@ -660,7 +660,7 @@ color: var(--main-white);
 }
 
 .registerauth-buttons:hover {
-background: var(--main-purple);
+background: #eab150;
 color: var(--main-white);
 }
 
@@ -940,6 +940,8 @@ color: var(--main-white);
 .droplog-content button:hover {
   background-color: #d6d3d1;
   border-radius: 6px;
+  color: var(--main-black);
+  font-weight: 400;
 }
 
 .droplog:hover .droplog-content {
@@ -948,7 +950,6 @@ color: var(--main-white);
 
 .droplog:hover .droplog-button {
   background-color: var(--accent-blue);
-  border-color: var(--main-black);
   color: var(--main-black);
   font-weight: 500;
 }

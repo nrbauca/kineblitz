@@ -1,9 +1,9 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import pentabytelogo from '../Images/Pentabyte_Logo.png'
-import kineblitzlogout from '../Images/Kineblitz_Logout.png'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import pentabytelogo from '../Images/Pentabyte_Logo.png';
+import kineblitzlogout from '../Images/Kineblitz_Logout.png';
 import { logout } from '../FirebaseSetup/firebase';
-import arrow from '../Images/Arrow.png'
+import arrow from '../Images/Arrow.png';
 
 export default function NavigationBar() {
   return (
