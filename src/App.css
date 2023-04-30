@@ -38,11 +38,11 @@
     
     .home-subtitle {
         width: 540px;
-        height: 60px;
+        height: 20px;
         font-weight: 700;
         font-size: 16px;
         line-height: 16px;
-        margin-bottom: 20px;
+        margin-bottom: 25px;
         color: var(--main-blue);
         
         display: flex;
@@ -52,17 +52,17 @@
     
     .home-title {
         width: 532px;
-        height: 140px;
+        height: /* 70px */ 60px;
         font-style: normal;
-        font-weight: 700;
-        font-size: 60px; 
-        /* OR 64px */
+        font-weight: /* 700 */ 775;
+        font-size: /* 64px */ 80px;
     
-        margin-bottom: 20px;
+        /* margin-bottom: 20px; */
         position: relative;
         display: flex;
         align-items: center;
         text-transform: uppercase;
+        letter-spacing: 3px;
     }
     
     .home-description {
@@ -71,25 +71,27 @@
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
-        text-transform: capitalize;
+        /* text-transform: capitalize; */
         color: var(--main-blue);
+        margin-bottom: /* 60px */ 20px;
     }
     
-    .home-headline button {
+    .headline-button {
         width: 220px;
         height: 44px;
-        border: none;
+        border-width: 1px;
         border-radius: 5px;
         padding: 8px 15px 8px 15px;
         background: var(--main-blue);
         color: var(--main-white);
+        border-color: var(--main-blue);
     }
     
-    .home-headline button:hover {
+    /* .headline-button:hover {
         border: var(--accent-blue);
         background: var(--accent-blue);
         color: var(--main-black);
-    }
+    } */
     
     /* FEATURE - SECOND PART */
     .feature-container {
@@ -145,10 +147,137 @@
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
-        text-transform: capitalize;
+        /* text-transform: capitalize; */
         color: var(--main-white);
     }
-  
+
+/* ABOUT US */
+.au {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  color: var(--main-blue);
+}
+  .au h1{
+      font-weight: 700;
+      font-size: 50px;
+      margin: 48px;
+  }
+
+  .plm {
+      width: 1044px;
+      height: auto;
+      margin-bottom: 20px;
+  }
+      .plm img {
+          width: 159px;
+          height: 182px;
+          margin-right: 32px;
+      }
+      .plm-details{
+          width: 852px;
+      }
+          .plm-title{
+              font-weight: 700;
+              font-size: 32px;
+              margin-bottom: 16px;
+
+          }
+          .plm-description{
+              font-weight: 400;
+              font-size: 20px;
+              text-align: justify;
+          }
+
+  .penta {
+      width: 1044px;
+  }
+      .penta img {
+          width: 159px;
+          height: 182px;
+          margin-left: 32px;
+          margin-top: 20px;
+      }
+      .penta-details{
+          width: 852px;
+      }
+          .penta-title{
+              font-weight: 700;
+              font-size: 32px;
+              margin-bottom: 16px;
+
+          }
+          .penta-description{
+              font-weight: 400;
+              font-size: 20px;
+              text-align: justify;
+          }
+
+.theTeam{
+  width: 100%;
+  height: 657px;
+  background-color: var(--main-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--main-white);
+}
+
+.theTeam-container{
+  width: 1171px;
+  height: 501px;
+  margin: 78px 135px;
+}
+  .theTeam-container h1 {
+      font-weight: 700;
+      font-size: 48px;
+      margin-bottom: 64px;
+  }
+
+.member-container{
+  width: 1160px;
+  height: 386px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 56px;
+}
+  .member{
+      width: 190px;
+      height: 386px;
+      padding: 5px;
+      border-radius: 10px;
+      background-color: var(--main-white);
+      color: var(--main-blue);
+  }
+  .member img{
+      width: 150px;
+      height: 150px;
+      margin: 16px;
+      border-radius: 5px;
+  }
+  .member-name {
+      height: 53px;  
+      font-weight: 700;
+      font-size: 24px;
+      margin-bottom: 10px;
+  }
+  .member-pos {
+      height: 14px;
+      font-style:italic;
+      font-size: 14px;
+      margin-bottom: 20px;
+  }
+  .member-des {
+      width: 180px;
+      height: 78px;
+      font-size: 15px;
+  }
+
 /* LOGIN FORM */
 /* .login-bg {
   position: fixed;
@@ -251,7 +380,7 @@ p {
 }
 
 .login-buttons:hover {
-background: var(--main-purple) /* temporary */;
+background: var(--main-purple);
 color: var(--main-white);
 }
 
@@ -325,7 +454,7 @@ color: var(--main-white);
 }
 
 .loginauth-buttons:hover {
-background: var(--main-purple) /* temporary */;
+background: var(--main-purple);
 color: var(--main-white);
 }
 
@@ -610,7 +739,7 @@ color: var(--main-white);
 }
 
 .pass-buttons:hover {
-background: var(--main-purple) /* temporary */;
+background: var(--main-purple);
 color: var(--main-white);
 }
 
@@ -763,134 +892,63 @@ color: var(--main-white);
       color: var(--main-white);
   }
 
-/* ABOUT US */
-.au {
-  width: 100%;
-  margin-top: 115px;
-  color: var(--main-blue);
-}
-  .au h1 {
-      font-weight: 700;
-      font-size: 50px;
-      margin-bottom: 50px;
-  }
+/* LOGIN DROPDOWN */
+/* .drop-button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+} */
 
-  .plm {
-      width: 1044px;
-      height: auto;
-      margin-bottom: 20px;
-  }
-      .plm img {
-          width: 159px;
-          height: 182px;
-          border: var(--main-black) solid;
-          margin-right: 32px;
-      }
-      .plm-details {
-          width: 852px;
-      }
-          .plm-title {
-              font-weight: 700;
-              font-size: 32px;
-              margin-bottom: 16px;
+/* .dropdown {
+  position: relative;
+  display: inline-block;
+} */
 
-          }
-          .plm-description {
-              font-weight: 400;
-              font-size: 20px;
-              text-align: justify;
-          }
+/* .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+} */
 
-  .penta {
-      width: 1044px;
-  }
-      .penta img {
-          width: 159px;
-          height: 182px;
-          border: var(--main-black) solid;
-          margin-left: 32px;
-          margin-top: 20px;
-      }
-      .penta-details {
-          width: 852px;
-      }
-          .penta-title {
-              font-weight: 700;
-              font-size: 32px;
-              margin-bottom: 16px;
-              
-          }
-          .penta-description {
-              font-weight: 400;
-              font-size: 20px;
-              text-align: justify;
-          }
+/* .dropdown-content button {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+} */
 
-.theTeam {
-  width: 100%;
-  height: 657px;
-  background-color: var(--main-blue);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: var(--main-white);
+.dropdown-content button:hover {
+  background-color: #d6d3d1;
+  border-radius: 6px;
 }
 
-.theTeam-container {
-  width: 1171px;
-  height: 501px;
-  margin: 78px 135px;
-  /* border: white solid; */
-}
-  .theTeam-container h1 {
-      font-weight: 700;
-      font-size: 48px;
-      margin-bottom: 64px;
-  }
-
-.member-container {
-  width: 1160px;
-  height: 377px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  gap: 56px;
-}
-  .member {
-      width: 190px;
-      height: 386px;
-      background-color: var(--main-white);
-      color: var(--main-black);
-      /* border: white soid; */
-  }
-  .member img {
-      width: 150px;
-      height: 150px;
-      margin: 16px;
-  }
-
-
-/* RECORDS */
-.record {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
-.record-container {
-  width: 1210px;
-  height: 550px;
-  margin-top: 32px;
+.dropdown:hover .drop-button {
+  background-color: #eab150;
+  border-color: var(--main-white);
+}
+
+/* LOGIN BUTTON DROPDOWN */
+.droplog-content button:hover {
+  background-color: #d6d3d1;
+  border-radius: 6px;
+}
+
+.droplog:hover .droplog-content {
+  display: block;
+}
+
+.droplog:hover .droplog-button {
+  background-color: var(--accent-blue);
+  border-color: var(--main-black);
   color: var(--main-black);
-}
-
-.graph-container {
-  width: 100%;
-  height: 500px;
-  margin-top: 32px;
-  border: #C32626 solid;
+  font-weight: 500;
 }
