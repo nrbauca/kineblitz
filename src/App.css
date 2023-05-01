@@ -278,6 +278,99 @@
       font-size: 15px;
   }
 
+/* KINEBLITZ//HOW IT WORKS */
+.kineblitz {
+  position: relative;
+  width: 100%;
+  color: var(--main-blue);
+  margin-top: 80px;
+}
+  .kineblitz h1{
+      font-weight: 700;
+      font-size: 50px;
+      margin: 48px 48px 32px 48px;
+  }
+
+  .kine {
+      width: 1038px;
+  }
+      .kineblitz img {
+          width: 450px;
+          height: 375px;
+          margin-left: 32px;
+          /* border == guide only */
+          border: #2F2F2F solid;
+      }
+      .kineblitz-details{
+          width: 852px;
+      }
+          .kineblitz-title{
+              font-weight: 700;
+              font-size: 32px;
+              margin-bottom: 16px;
+          }
+          .kineblitz-description{
+              font-weight: 400;
+              font-size: 20px;
+              text-align: justify;
+          }
+
+      .how-it-works{
+          width: 100%;
+          height: 657px;
+          background-color: var(--main-blue);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: var(--main-white);
+      }
+      
+      .how-it-works-container{
+          width: 1171px;
+          height: 501px;
+          margin: 78px 135px;
+      }
+          .how-it-works-container h1 {
+              font-weight: 700;
+              font-size: 48px;
+              margin-bottom: 64px;
+          }
+      
+      .process-container{
+          width: 1160px;
+          height: 386px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          gap: 56px;
+      }
+          .process{
+              width: 190px;
+              height: 386px;
+              padding: 5px;
+              border-radius: 10px;
+              background-color: var(--main-white);
+              color: var(--main-blue);
+          }
+          .process img{
+              width: 150px;
+              height: 150px;
+              margin: 16px;
+              border-radius: 5px;
+          }
+          .process-name {
+              height: 53px;  
+              font-weight: 700;
+              font-size: 24px;
+              margin-bottom: 10px;
+          }
+          .process-des {
+              width: 180px;
+              height: 78px;
+              font-size: 15px;
+          }
+
 /* LOGIN FORM */
 /* .login-bg {
   position: fixed;
