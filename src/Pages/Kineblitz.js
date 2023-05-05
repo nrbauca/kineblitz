@@ -19,37 +19,49 @@ export default function Kineblitz() {
           </div>
         </div>
         <div className="how-it-works column">
-          <div className="how-it-works-container column">
-            <h1>HOW IT WORKS???</h1>
-            <div className="process-container row">
-              <div className="process gen-button">
-                <img src alt="" />
-                <p className="process-name">PROCESS #</p>
-                <p className="process-des">Process information</p>
-              </div>
-              <div className="process gen-button">
-                <img src alt="" />
-                <p className="process-name">PROCESS #</p>
-                <p className="process-des">Process information</p>
-              </div>
-              <div className="process gen-button">
-                <img src alt="" />
-                <p className="process-name">PROCESS #</p>
-                <p className="process-des">Process information</p>
-              </div>
-              <div className="process gen-button">
-                <img src alt="" />
-                <p className="process-name">PROCESS #</p>
-                <p className="process-des">Process information</p>
-              </div>
-              <div className="process gen-button">
-                <img src alt="" />
-                <p className="process-name">PROCESS #</p>
-                <p className="process-des">Process information</p>
-              </div>
+        <div className="how-it-works-container column">
+          {/* PATIENT */}
+          <h1>PATIENT PROCESS</h1>
+          <div className="process-container row">
+            <div className="patient-process gen-button">
+              <img src alt="" />
+              <p className="process-name">REGISTER TO WEBAPP</p>
+              <p className="process-des">Process information</p>
+            </div>
+            <div className="patient-process gen-button">
+              <img src alt="" />
+              <p className="process-name">TESTING PHASE</p>
+              <p className="process-des">Process information</p>
+            </div>
+            <div className="patient-process gen-button">
+              <img src alt="" />
+              <p className="process-name">ACCESS ACCOUNT</p>
+              <p className="process-des">Process information</p>
             </div>
           </div>
         </div>
+        <div className="how-it-works-container column">
+          {/* PROFESSIONAL */}
+          <h1>PROFESSIONAL PROCESS</h1>
+          <div className="process-container row">
+            <div className="professional-process gen-button">
+              <img src alt="" />
+              <p className="process-name">PROFESSIONAL ACCOUNT</p>
+              <p className="process-des">Process information</p>
+            </div>
+            <div className="professional-process gen-button">
+              <img src alt="" />
+              <p className="process-name">SELECT PATIENT RECORD</p>
+              <p className="process-des">Process information</p>
+            </div>
+            <div className="professional-process gen-button">
+              <img src alt="" />
+              <p className="process-name">EVALUATE RECORD</p>
+              <p className="process-des">Process information</p>
+            </div>
+          </div>
+        </div>
+      </div>
       </main>
   )
 }
