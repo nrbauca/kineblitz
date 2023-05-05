@@ -33,28 +33,29 @@ export default function Home() {
         </section>
         <section className="feature-container">
           <div className="feature-1 row">
-            <img src alt="" className="feature1-img" />
+            <img src alt="objective" className="feature1-img" />
             <div className="feature-details column">
-              <h3>LOREM IPSUM</h3>
+              <h3>OBJECTIVE</h3>
               <p className="detail1">
-                One of our goals at Kineblitz is to help physicians through the use of 
-                tech, specifically through surface Electromyography (sEMG) monitoring 
-                and game-based therapy. By providing tracking and progress monitoring 
-                of muscle activity, we aim to enhance the effectiveness of therapy and 
-                help patients achieve their goals.
+              Develop a low-cost microcontroller-based system that performs surface electromyography (EMG) 
+              functions by measuring the voltage amplitude of muscle activation via the electric potential 
+              of the upper body, and include a biofeedback-driven game that takes into consideration the 
+              circumstances present in children with spastic cerebral palsy.  
               </p>
             </div>
           </div>
           <div className="feature-2 row">
             <div className="feature-details column">
-              <h3 className="right">lorem ipsum</h3>
+              <h3 className="right"></h3>
               <p className="detail2 right">
-                We are dedicated to working closely with patients, families, and 
-                physicians to provide personalized and effective care that improves 
-                patient outcomes.
+              The project can also be used to improve the patient's retention and motivation during the first 
+              phase of habilitation, and it can be incorporated in physical therapy exercise programs to improve 
+              the patient's "follow-through" in their habilitation. The outcome of this project may help particular 
+              groups, including the community, pediatric patients with cerebral palsy, rehabilitation centers, 
+              government and non-government health organizations, and future researchers.
               </p>
             </div>
-            <img src alt="" className="feature2-img" />
+            <img src alt="significance" className="feature2-img" />
           </div>
         </section>
       </main>
