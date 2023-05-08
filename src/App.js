@@ -4,7 +4,7 @@ import NavigationBar from "./Components/NavigationBar";
 import Home from './Pages/Home';
 import Kineblitz from './Pages/Kineblitz';
 import AboutUs from './Pages/AboutUs';
-import Login from "./Pages/Login";
+import Login from "./Pages/LogIn";
 import Dashboard from './Pages/Dashboard';
 import UserDashboard from './Pages/UserDashboard';
 import Record from './Pages/Record';

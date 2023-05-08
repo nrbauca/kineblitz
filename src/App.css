@@ -42,7 +42,7 @@
         font-weight: 700;
         font-size: 16px;
         line-height: 16px;
-        margin-bottom: 15px;
+        margin-bottom: 16px;
         color: var(--main-blue);
         
         display: flex;
@@ -57,7 +57,7 @@
         font-weight: /* 700 */ 775;
         font-size: /* 64px */ 80px;
     
-        margin-bottom: 15px;
+        margin-bottom: 20px;
         position: relative;
         display: flex;
         align-items: center;
@@ -66,14 +66,15 @@
     }
     
     .home-description {
-        width: /* 540px */ 720px;
+        width: 550px;
         height: 100px;
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
         /* text-transform: capitalize; */
         color: var(--main-blue);
-        margin-bottom: 60px;
+        margin-bottom: 32px;
+        text-align: justify;
     }
     
     .headline-button {
@@ -114,7 +115,8 @@
     .feature-container img {
         width: 300px;
         height: 300px;
-        background-color: var(--main-white);
+       filter: drop-shadow(5px 5px 0.35rem #2f2f2fbb);
+        /* background-color: var(--main-white); */
     }
     
     .feature1-img {
@@ -148,6 +150,7 @@
         line-height: 24px;
         /* text-transform: capitalize; */
         color: var(--main-white);
+        text-align: justify;
     }
 
 /* ABOUT US */
@@ -157,20 +160,23 @@
   align-items: center;
   flex-direction: column;
   position: relative;
-  width: 100%;
+  height: 100vh;
   color: var(--main-blue);
 }
 
   .au h1 {
       font-weight: 700;
       font-size: 50px;
-      margin: 48px;
+      margin: 48px 48px 24px 48px;
   }
 
   .plm {
       width: 1044px;
       height: auto;
-      margin-bottom: 20px;
+      margin-bottom: 24px;
+      padding: 16px 20px 16px 20px; 
+      border-radius: 5px;
+      background-color: #f2f2f29a;
   }
       .plm img {
           width: 159px;
@@ -179,21 +185,26 @@
       }
       .plm-details {
           width: 852px;
+
       }
           .plm-title {
-              font-weight: 700;
-              font-size: 32px;
-              margin-bottom: 16px;
-
+            font-weight: 500;
+            font-size: 30px;
+            margin-bottom: 10px;
+            color: var(--main-blue);    
           }
           .plm-description {
               font-weight: 400;
-              font-size: 20px;
+              font-size: 18px;
               text-align: justify;
+              color: var(--main-blue);   
           }
 
   .penta {
       width: 1044px;
+      padding: 16px 20px 16px 20px; 
+      border-radius: 5px;
+      background-color: #f2f2f29a;
   }
       .penta img {
           width: 159px;
@@ -205,31 +216,32 @@
           width: 852px;
       }
           .penta-title {
-              font-weight: 700;
-              font-size: 32px;
-              margin-bottom: 16px;
-
+              font-weight: 500;
+              font-size: 30px;
+              margin-bottom: 10px;
+              color: var(--main-blue);    
           }
           .penta-description {
               font-weight: 400;
-              font-size: 20px;
+              font-size: 18px;
               text-align: justify;
+              color: var(--main-blue);    
           }
 
 .theTeam {
   width: 100%;
-  height: 657px;
+  height: 100vh;
   background-color: var(--main-blue);
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
   color: var(--main-white);
 }
 
 .theTeam-container {
   width: 1171px;
-  height: 501px;
-  margin: 78px 135px;
+  height:fit-content;
 }
   .theTeam-container h1 {
       font-weight: 700;
@@ -238,33 +250,37 @@
   }
 
 .member-container {
-  width: 1160px;
-  height: 386px;
+  width: auto;
+  height: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  gap: 56px;
+  gap: 54px;
 }
   .member {
-      width: 190px;
-      height: 386px;
-      padding: 5px;
+      width: 220px;
+      height: 450px;
+      padding: 10px;
       border-radius: 10px;
       background-color: var(--main-white);
-      color: var(--main-blue);
   }
   .member img {
       width: 150px;
       height: 150px;
       margin: 16px;
+      border: var(--main-blue) 3px solid;
       border-radius: 5px;
   }
+  .member-name, .member-pos, .member-des {
+    color: var(--main-blue);
+  }
+
   .member-name {
       height: 53px;  
       font-weight: 700;
       font-size: 24px;
-      margin-bottom: 10px;
+      margin-bottom: 16px;
   }
   .member-pos {
       height: 14px;
@@ -276,19 +292,25 @@
       width: 180px;
       height: 78px;
       font-size: 15px;
+      text-align: justify;
+      margin-bottom: 10px;
   }
 
 /* KINEBLITZ//HOW IT WORKS */
 .kineblitz {
   position: relative;
   width: 100%;
+  height: 100vh;
   color: var(--main-blue);
-  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
   .kineblitz h1{
       font-weight: 700;
-      font-size: 50px;
-      margin: 48px 48px 32px 48px;
+      font-size: 70px;
+      margin: 48px 48px 24px 48px;
   }
 
   .kine {
@@ -296,13 +318,14 @@
   }
       .kineblitz img {
           width: 450px;
-          height: 375px;
+          height: 450px;
           margin-left: 32px;
           /* border == guide only */
-          border: #2F2F2F solid;
+          /* border: #2F2F2F solid; */
       }
       .kineblitz-details{
           width: 852px;
+          color: var(--main-blue);
       }
           .kineblitz-title{
               font-weight: 700;
@@ -313,6 +336,7 @@
               font-weight: 400;
               font-size: 20px;
               text-align: justify;
+              color: var(--main-blue);
           }
 
           .how-it-works{
@@ -327,8 +351,8 @@
         
         .how-it-works-container{
             width: 1171px;
-            height: 501px;
-            margin: 78px 135px;
+            height: auto;
+            margin: 78px auto 48px auto;
         }
             .how-it-works-container h1 {
                 font-weight: 700;
@@ -353,26 +377,35 @@
                 background-color: var(--main-white);
                 color: var(--main-blue);
             }
+            .patient-process p {
+              color: var(--main-blue);
+            }
+
             .professional-process{
                 width: 386px;
                 height: 386px;
                 padding: 5px;
                 border-radius: 10px;
                 background-color: var(--main-blue);
-                color: var(--main-white);
+                
             }
-            .process img{
+            .professional-h1{
+              color: var(--main-blue);
+            }
+            .professional-process p{
+              color: var(--main-white);
+            }
+            .patient-process img, .professional-process img{
                 width: 250px;
                 height: 250px;
                 margin: 16px;
-                border-radius: 5px;
-                border: 1px solid black;
             }
             .process-name {
                 height: 53px;  
                 font-weight: 700;
                 font-size: 24px;
                 margin-bottom: 10px;
+                
             }
             .process-des {
                 width: 180px;
