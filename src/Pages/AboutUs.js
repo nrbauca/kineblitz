@@ -52,36 +52,36 @@ export default function AboutUs() {
           <div className="theTeam-container column">
             <h1>THE TEAM</h1>
             <div className="member-container row">
-              <div className="member gen-button">
+              <div className="member gen-button column">
                 <img src={bauca} alt="Nathalie" />
-                <p className="member-name">NATHALIE BAUCA</p>
+                <p className="member-name">NATHALIE<br/>BAUCA</p>
                 <p className="member-pos">PROJECT MANAGER</p>
                 <p className="member-des">She is responsible for planning, 
                   organizing, and directing the project. 
                   She handles the repository.</p>
               </div>
-              <div className="member gen-button">
+              <div className="member gen-button column">
                 <img src={francisco} alt="Mark" />
-                <p className="member-name">MARK FRANCISCO</p>
+                <p className="member-name">MARK<br/>FRANCISCO</p>
                 <p className="member-pos">PROJECT ANALYST</p>
                 <p className="member-des">He oversees defining and developing 
                   the contents needed for the project and raise solutions.</p>
               </div>
-              <div className="member gen-button">
+              <div className="member gen-button column">
                 <img src={nacario} alt="Jella" />
-                <p className="member-name">JELLA NACARIO</p>
+                <p className="member-name">JELLA<br/>NACARIO</p>
                 <p className="member-pos">PROJECT COORDINATOR</p>
                 <p className="member-des">She manages the deliverables according to 
                   the decided plan and establishes the project schedule.</p>
               </div>
-              <div className="member gen-button">
+              <div className="member gen-button column">
                 <img src={omura} alt="Nozomi" />
-                <p className="member-name">NOZOMI OMURA</p>
+                <p className="member-name">NOZOMI<br/>OMURA</p>
                 <p className="member-pos">PROJECT SPONSOR</p>
                 <p className="member-des">She ensures the availability of resources for 
                   the team and helps in communicating the project's goals.</p>
               </div>
-              <div className="member gen-button">
+              <div className="member gen-button column">
                 <img src={ramos} alt="Ralph" />
                 <p className="member-name">RALPH<br />RAMOS</p>
                 <p className="member-pos">PROJECT SPONSOR</p>
