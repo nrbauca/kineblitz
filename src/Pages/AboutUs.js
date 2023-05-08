@@ -10,7 +10,7 @@ import ramos from '../Images/ramos.jpg';
 
 export default function AboutUs() {
   return (
-    <div>'
+    <div>
       <img src={plm} alt="plm background" className="fixed top-[20px] w-[1550px] h-full bg-cover" />
       <main>
         <div className="au container">

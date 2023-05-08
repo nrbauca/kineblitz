@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import kineblitzlogo from '../Images/KINEBLITZ_Logo.png';
-import homepage from '../Images/Homepage.png';
+import homepage from '../Images/homepage.png';
+import objective from '../Images/objective.png';
+import significance from '../Images/significance.png';
 
 export default function Home() {
   return (
@@ -33,7 +35,7 @@ export default function Home() {
         </section>
         <section className="feature-container">
           <div className="feature-1 row">
-            <img src alt="objective" className="feature1-img" />
+            <img src={objective} alt="objective" className="feature1-img" />
             <div className="feature-details column">
               <h3>OBJECTIVE</h3>
               <p className="detail1">
@@ -55,7 +57,7 @@ export default function Home() {
               government and non-government health organizations, and future researchers.
               </p>
             </div>
-            <img src alt="significance" className="feature2-img" />
+            <img src={significance} alt="significance" className="feature2-img" />
           </div>
         </section>
       </main>
