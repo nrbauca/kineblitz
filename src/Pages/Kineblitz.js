@@ -1,4 +1,10 @@
 import React from 'react';
+import register from '../Images/register.png';
+import testing from '../Images/testing.png';
+import access from '../Images/access.png';
+import professional from '../Images/professional.png';
+import select from '../Images/select-patient.png';
+import evaluate from '../Images/evaluate.png';
 
 export default function Kineblitz() {
   return (
@@ -26,17 +32,23 @@ export default function Kineblitz() {
           <h1>PATIENT PROCESS</h1>
           <div className="process-container row">
             <div className="patient-process gen-button">
-              <img src alt="register" />
+              <div className="grid place-items-center">
+                <img src={register} alt="register" className="w-[250px]" />
+              </div>
               <p className="process-name">REGISTER TO WEBAPP</p>
               <p className="process-des">Process information</p>
             </div>
             <div className="patient-process gen-button">
-              <img src alt="testing" />
+              <div className="grid place-items-center">
+                <img src={testing} alt="testing" className="w-[250px]" />
+              </div>
               <p className="process-name">TESTING PHASE</p>
               <p className="process-des">Process information</p>
             </div>
             <div className="patient-process gen-button">
-              <img src alt="access" />
+              <div className="grid place-items-center">
+                <img src={access} alt="access" className="w-[250px]" />
+              </div>
               <p className="process-name">ACCESS ACCOUNT</p>
               <p className="process-des">Process information</p>
             </div>
@@ -47,17 +59,23 @@ export default function Kineblitz() {
           <h1>PROFESSIONAL PROCESS</h1>
           <div className="process-container row">
             <div className="professional-process gen-button">
-              <img src alt="professional" />
+              <div className="grid place-items-center">
+                <img src={professional} alt="professional" className="w-[250px]" />
+              </div>
               <p className="process-name">PROFESSIONAL ACCOUNT</p>
               <p className="process-des">Process information</p>
             </div>
             <div className="professional-process gen-button">
-              <img src alt="select-patient" />
+              <div className="grid place-items-center">
+                <img src={select} alt="select-patient" className="w-[250px]" />
+              </div>
               <p className="process-name">SELECT PATIENT RECORD</p>
               <p className="process-des">Process information</p>
             </div>
             <div className="professional-process gen-button">
-              <img src alt="evaluate" />
+              <div className="grid place-items-center">
+                <img src={evaluate} alt="evaluate" className="w-[250px]" />
+              </div>
               <p className="process-name">EVALUATE RECORD</p>
               <p className="process-des">Process information</p>
             </div>

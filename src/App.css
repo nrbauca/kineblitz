@@ -660,7 +660,7 @@ color: var(--main-white);
   color: var(--main-black);
 }
 
-/* .reset div {
+/* .resetauth div {
   margin-top: 7px;
   font-size: 13px;
   color: white;
@@ -766,7 +766,7 @@ background: #eab150;
 color: var(--main-white);
 }
 
-/* .register div {
+/* .registerauth div {
   margin-top: 7px;
   font-size: 13px;
   color: white;

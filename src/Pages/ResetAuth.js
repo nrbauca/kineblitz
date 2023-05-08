@@ -26,7 +26,7 @@ export default function ResetAuth() {
         </div>
 
         <input
-          type="text"
+          type="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           placeholder="Email Address"
