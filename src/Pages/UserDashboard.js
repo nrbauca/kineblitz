@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { auth, firestore, logout } from '../FirebaseSetup/firebase';
 import { query, collection, getDocs, where } from 'firebase/firestore';
+import blankpic from '../Images/BlankPic.png'
 
 export default function UserDashboard() {
     const [user, loading, error ] = useAuthState(auth);
@@ -40,14 +41,14 @@ export default function UserDashboard() {
             <main className="user-dashboard">
                 <div className="user-container">
                 <div className="user-information row">
-                    <img src alt="" className="user-pic" />
+                    <img src={blankpic} alt="" className="user-pic" />
                     <div className="user-details">
                     <p className="user-name">{name}</p>
                     <p className="birth-date">Birth Date: {birthday}</p>
                     <p className="age">Age: {age}</p>
                     <p className="id-num">ID No.:</p>
                     <p className="condition">Condition: {condition}</p>
-                    <button onClick={logout} className="gen-button px-2 py-2 rounded-lg bg-[#F5C4C4]">Sign Out (Temp)</button>
+                    {/* <button onClick={logout} className="gen-button px-2 py-2 rounded-lg bg-[#F5C4C4]">Sign Out (Temp)</button> */}
                     </div>
                 </div>
                 <h3 className="center">Records</h3>

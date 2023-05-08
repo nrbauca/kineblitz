@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c420391f.css",
-    "main.js": "/static/js/main.b3e71a9d.js",
+    "main.css": "/static/css/main.111a25dd.css",
+    "main.js": "/static/js/main.bdf1a076.js",
     "static/media/Homepage.png": "/static/media/Homepage.271baa4b2231c8d70c4b.png",
     "static/media/PLMBackground.png": "/static/media/PLMBackground.c33cfb595e85a1eae0f8.png",
     "static/media/Hallway_Background.jpg": "/static/media/Hallway_Background.51238ea7c9567fa43463.jpg",
@@ -9,12 +9,16 @@
     "static/media/bauca.jpeg": "/static/media/bauca.5425000c1fd750590011.jpeg",
     "static/media/omura.jpg": "/static/media/omura.66195378f601fbcc94bc.jpg",
     "static/media/francisco.jpg": "/static/media/francisco.85d172979d07456d1d0f.jpg",
+    "static/media/KINEBLITZ_Logo2.png": "/static/media/KINEBLITZ_Logo2.ee215024316fcba23da4.png",
     "static/media/KINEBLITZ_Logo.png": "/static/media/KINEBLITZ_Logo.e3d68f97fc5b7a1ca754.png",
     "static/media/PLM_Logo.png": "/static/media/PLM_Logo.e4ffa7ccdb6bb6d64f6d.png",
+    "static/media/BlankPic.png": "/static/media/BlankPic.f2ae27a5c2b89023cf02.png",
     "static/media/Kineblitz_Logout.png": "/static/media/Kineblitz_Logout.4697a0e3b6086e5e5604.png",
+    "static/media/objective.png": "/static/media/objective.a9df3ef2ef214d86e2e4.png",
     "static/media/ramos.jpg": "/static/media/ramos.daedd828a9cf1a955109.jpg",
     "static/media/professional.png": "/static/media/professional.5b700e05235e7389164b.png",
     "static/media/testing.png": "/static/media/testing.9465d19cec28eab02f32.png",
+    "static/media/significance.png": "/static/media/significance.3f7288dc935378a116ea.png",
     "static/media/evaluate.png": "/static/media/evaluate.01d6a48834e5c07b680f.png",
     "static/media/Pentabyte_Logo2.png": "/static/media/Pentabyte_Logo2.c7989b350ae4af501d47.png",
     "static/media/Arrow.png": "/static/media/Arrow.bb24bdbc0e20cf436eca.png",
@@ -22,11 +26,11 @@
     "static/media/register.png": "/static/media/register.a2e07c07dd2f48df3e33.png",
     "static/media/select-patient.png": "/static/media/select-patient.bd5852d13ff87bba8a7b.png",
     "index.html": "/index.html",
-    "main.c420391f.css.map": "/static/css/main.c420391f.css.map",
-    "main.b3e71a9d.js.map": "/static/js/main.b3e71a9d.js.map"
+    "main.111a25dd.css.map": "/static/css/main.111a25dd.css.map",
+    "main.bdf1a076.js.map": "/static/js/main.bdf1a076.js.map"
   },
   "entrypoints": [
-    "static/css/main.c420391f.css",
-    "static/js/main.b3e71a9d.js"
+    "static/css/main.111a25dd.css",
+    "static/js/main.bdf1a076.js"
   ]
 }

@@ -36,7 +36,7 @@ export default function Dashboard() {
                     <div className="dashboard-welcome">
                         <h1 className="dashboard-header">Welcome, <span className="dashboard-user">{name}</span>!</h1>
                         <p className="dashboard-instruction">
-                            Please select a database to access...
+                            Please select to access patient's information...
                         </p>
                     </div>
                     <div className="dashboard-options">
@@ -45,7 +45,7 @@ export default function Dashboard() {
                         <button type="submit" className="gen-button" id>User 3</button>
                     </div>
                     <div className="pt-5">
-                    <button onClick={logout} className="gen-button px-2 py-2 rounded-lg bg-[#F5C4C4]">Sign Out (Temp)</button>
+                    {/* <button onClick={logout} className="gen-button px-2 py-2 rounded-lg bg-[#F5C4C4]">Sign Out (Temp)</button> */}
                     </div>
                 </div>
             </main>
