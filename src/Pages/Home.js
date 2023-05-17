@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import kineblitzlogo from '../Images/KINEBLITZ_Logo.png';
-import homepage from '../Images/Homepage.png';
+import homepage from '../Images/homepage.png';
 import objective from '../Images/objective.png';
 import significance from '../Images/significance.png';
 

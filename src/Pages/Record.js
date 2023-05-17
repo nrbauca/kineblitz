@@ -1,17 +1,9 @@
-import React from 'react';
+import React from 'react'
 
-export default function Records() {
-    return (
-        <div>
-        <main className="record">
-            <div className="record-container">
-                <h1 className="record-title">Muscle Activity Recorded: 
-                    <span className="record-date">*insert code here for record date*</span></h1>
-            <div className="graph-container">
-                *graph here*
-            </div>
-            </div>
-        </main>
-        </div>
-    );
+export default function Record() {
+  return (
+    <div>
+      <iframe title="graph page" src="../Record.html" width="100%" height="1131px"></iframe>
+    </div>
+  );
 }

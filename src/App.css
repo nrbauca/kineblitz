@@ -920,7 +920,7 @@ color: var(--main-white);
       color: var(--main-blue);
   }
 
-.dashboard-options {
+/* .dashboard-options {
   position: relative;
   height: 250px;
   width: 1280px;
@@ -942,6 +942,56 @@ color: var(--main-white);
   .dashboard-options button[type="submit"]:hover {
       background-color: var(--accent-blue);
       color: var(--main-black);
+  } */
+
+/* New Button */
+
+.dash-information {
+  width: 1044px;
+  height: 286px;
+  padding: 32px;
+  margin-bottom: 40px;
+  /* background-color: var(--accent-blue); */
+  border-radius: 16px;
+  color: var(--main-black);
+}
+  .dash-information img {
+      width: 230px;
+      height: 230px;
+      margin-right: 35px;
+      border: var(--main-black) .5px solid;
+
+  }
+
+.dash-details {
+  width: 749px;
+  height: 166px;
+  color: var(--main-black);
+}
+  .dash-name {
+      position: relative;
+      height: 60px;
+      font-weight: 700;
+      font-size: 40px;
+      margin-bottom: 16px;
+      color: var(--main-black);
+  }
+  .dash-birth-date, .dash-age, .dash-id-num, .dash-condition {
+      padding-left: 20px;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      color: var(--main-black); 
+  }
+
+  .user-prof button[type="submit"] {
+      border: none;
+      background-color:var(--accent-blue);
+      color: var(--main-black);
+  }
+  
+  .user-prof button[type="submit"]:hover {
+      background-color: var(--accent-red);
   }
 
 /* USER DASHBOARD */

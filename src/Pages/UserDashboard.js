@@ -46,16 +46,14 @@ export default function UserDashboard() {
                     <p className="user-name">{name}</p>
                     <p className="birth-date">Birth Date: {birthday}</p>
                     <p className="age">Age: {age}</p>
-                    <p className="id-num">ID No.:</p>
+                    <p className="id-num">ID No.: {/* {user.uid} */}</p>
                     <p className="condition">Condition: {condition}</p>
                     {/* <button onClick={logout} className="gen-button px-2 py-2 rounded-lg bg-[#F5C4C4]">Sign Out (Temp)</button> */}
                     </div>
                 </div>
-                <h3 className="center">Records</h3>
+                <h3 className="center">Patient Record</h3>
                 <div className="user-records row">
-                    <Link to="/record"><button type="submit" className="gen-button" id>mm/dd/yy</button></Link>
-                    <Link to="/record"><button type="submit" className="gen-button" id>mm/dd/yy</button></Link>
-                    <Link to="/record"><button type="submit" className="gen-button" id>mm/dd/yy</button></Link>
+                    <Link to="/record"><button type="submit" className="gen-button" id>View My Muscle Activity Records</button></Link>
                 </div>
                 </div>
             </main>

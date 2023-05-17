@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { auth, firestore, logout } from '../FirebaseSetup/firebase';
 import { query, collection, getDocs, where } from 'firebase/firestore';
+import blankpic from '../Images/BlankPic.png'
 
 export default function Dashboard() {
     const [user, loading, error ] = useAuthState(auth);
@@ -36,14 +37,27 @@ export default function Dashboard() {
                     <div className="dashboard-welcome">
                         <h1 className="dashboard-header">Welcome, <span className="dashboard-user">{name}</span>!</h1>
                         <p className="dashboard-instruction">
-                            Please select to access patient's information...
+                            Please Select a Profile to Access Patient's Muscle activity Records...
                         </p>
                     </div>
-                    <div className="dashboard-options">
-                        <button type="submit" className="gen-button" id>User 1</button>
-                        <button type="submit" className="gen-button" id>User 2</button>
-                        <button type="submit" className="gen-button" id>User 3</button>
+
+                    {/* PATIENT'S PROFILE BUTTON */}
+                    <div className="user-prof">
+                        <Link to="/record">
+                        <button type="submit" className=" dash-information row gen-button">
+                            <img src={blankpic} alt="" className="dash-pic" />
+                            <div className="dash-details">
+                                <p className="dash-name">Patient's Name</p>
+                                <p className="dash-birth-date">Birth Date: </p>
+                                <p className="dash-age">Age: </p>
+                                <p className="dash-id-num">ID No.: {/* {user.uid} */}</p>
+                                <p className="dash-condition">Condition: </p>
+                                {/* <button onClick={logout} className="gen-button px-2 py-2 rounded-lg bg-[#F5C4C4]">Sign Out (Temp)</button> */}
+                            </div>
+                        </button>
+                        </Link>
                     </div>
+
                     <div className="pt-5">
                     {/* <button onClick={logout} className="gen-button px-2 py-2 rounded-lg bg-[#F5C4C4]">Sign Out (Temp)</button> */}
                     </div>
