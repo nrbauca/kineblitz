@@ -46,9 +46,8 @@ export default function UserDashboard() {
                     <p className="user-name">{name}</p>
                     <p className="birth-date">Birth Date: {birthday}</p>
                     <p className="age">Age: {age}</p>
-                    <p className="id-num">ID No.: {/* {user.uid} */}</p>
+                    <p className="id-num">ID No.: (Hardcoded)</p>
                     <p className="condition">Condition: {condition}</p>
-                    {/* <button onClick={logout} className="gen-button px-2 py-2 rounded-lg bg-[#F5C4C4]">Sign Out (Temp)</button> */}
                     </div>
                 </div>
                 <h3 className="center">Patient Record</h3>

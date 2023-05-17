@@ -37,25 +37,39 @@ export default function Dashboard() {
                     <div className="dashboard-welcome">
                         <h1 className="dashboard-header">Welcome, <span className="dashboard-user">{name}</span>!</h1>
                         <p className="dashboard-instruction">
-                            Please Select a Profile to Access Patient's Muscle activity Records...
+                            Please Select a Profile to Access Patient's Muscle Activity Records...
                         </p>
                     </div>
 
                     {/* PATIENT'S PROFILE BUTTON */}
                     <div className="user-prof">
-                        <Link to="/record">
+
+                        <Link to="/recordauth">
                         <button type="submit" className=" dash-information row gen-button">
                             <img src={blankpic} alt="" className="dash-pic" />
                             <div className="dash-details">
-                                <p className="dash-name">Patient's Name</p>
-                                <p className="dash-birth-date">Birth Date: </p>
-                                <p className="dash-age">Age: </p>
-                                <p className="dash-id-num">ID No.: {/* {user.uid} */}</p>
-                                <p className="dash-condition">Condition: </p>
-                                {/* <button onClick={logout} className="gen-button px-2 py-2 rounded-lg bg-[#F5C4C4]">Sign Out (Temp)</button> */}
+                                <p className="dash-name">Juan Dela Cruz</p>
+                                <p className="dash-birth-date">Birth Date: 09-02-2015</p>
+                                <p className="dash-age">Age: 8</p>
+                                <p className="dash-id-num">ID No.: (Hardcoded)</p>
+                                <p className="dash-condition">Condition: Cerebral Palsy</p>
                             </div>
                         </button>
                         </Link>
+
+                        {/* <Link to="/recordauth">
+                        <button type="submit" className=" dash-information row gen-button">
+                            <img src={blankpic} alt="" className="dash-pic" />
+                            <div className="dash-details">
+                                <p className="dash-name">Patient Name Demo</p>
+                                <p className="dash-birth-date">Birth Date: 08-02-2015</p>
+                                <p className="dash-age">Age: 8</p>
+                                <p className="dash-id-num">ID No.: (Hardcoded)</p>
+                                <p className="dash-condition">Condition: Cerebral Palsy</p>
+                            </div>
+                        </button>
+                        </Link> */}
+
                     </div>
 
                     <div className="pt-5">

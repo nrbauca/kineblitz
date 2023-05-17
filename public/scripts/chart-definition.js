@@ -72,7 +72,7 @@ function createValueChart()
 
       yAxis: {
               title: { 
-                text: 'MUSCLE STRENGTH',
+                text: 'MUSCLE STRENGTH (µV)',
 
                 style: {
                   color: '#1d3578',

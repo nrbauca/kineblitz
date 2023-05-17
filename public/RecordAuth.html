@@ -1,0 +1,172 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Record.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;800&display=swaps">
+    <title>Record</title>
+
+    <!-- include Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+
+    <!-- include only the Firebase features as you need -->
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+
+    <script>
+      // Replace with your app config object
+      const firebaseConfig = {
+        apiKey: "AIzaSyC15wmWTnfzXP0grkdCk8BmJUlElBDc3_o",
+        authDomain: "kineblitz-2d95f.firebaseapp.com",
+        databaseURL: "https://kineblitz-2d95f-default-rtdb.asia-southeast1.firebasedatabase.app",
+        projectId: "kineblitz-2d95f",
+        storageBucket: "kineblitz-2d95f.appspot.com",
+        messagingSenderId: "118588653036",
+        appId: "1:118588653036:web:c760cf0c458e00e693d4c9",
+      };
+
+      // Initialize firebase
+      firebase.initializeApp(firebaseConfig);
+
+      // Make auth and database references
+      const auth = firebase.auth();
+      const db = firebase.database();
+
+    </script>
+
+    <!-- include highchartsjs to build the charts-->
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <!-- include to use jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+</head>
+<body>
+
+    <main>
+        
+    <!-- FOR GRAPH = Real-time results -->
+    <div class="record" id="record">
+            
+            <!-- Page Title -->
+            <h1 class="record-title dbh1">Patient's Muscle Activity Records</h1>
+            <h3 class="record-title dbh3">Dashboard</h3>
+     
+        <!--LOGIN FORM-->
+            <form id="login-form"> <!-- style="display: none;" -->
+              <div class="form-elements-container">
+                
+                
+                <p id="error-message" style="color:#00AEEF;"></p>
+              </div>
+            </form>
+   
+      <!--AUTHENTICATION BAR (USER DETAILS/LOGOUT BUTTON)-->
+            <div class="for_login">
+              <div id="authentication-bar">
+                <p><span id="authentication-status">User logged in</span>
+                  <span id="user-details">USEREMAIL</span>
+                  <!-- <span><h2 class="patient-details">Patient's Name</h2></span> -->
+                </p>
+              </div>
+            </div>
+
+     <!--CONTENT (SENSOR READINGS)-->
+            <div class="content-sign-in" id="content-sign-in" >
+
+                <!-----GRAPH----->
+                <div id="charts-div">
+                  <div class="card">
+                    <h1 class="patient-name">Patient's Name</h1>
+                    <div id="chart-values" class="chart-container"></div>
+                  </div>
+
+                    <!--BUTTONS TO HANDLE DATA-->
+                      <div class="graph_buttons">
+                        <!--View data button-->
+                        <button id="view-data-button">View Data in Table Form</button>
+                        
+                        <!--Hide data button-->
+                        <button id="hide-data-button" style= "display:none;">Hide Readings</button>
+                        
+                        <!--Delete data button -->
+                        <button id="delete-button" class="deletebtn" style= "display:none;">Delete Readings</button>
+                      </div>
+
+                    <!--SET NUMBER OF READINGS INPUT FIELD-->
+                      <div id="charts-div" style="display:block">
+                        <div id="readings">
+                          <p> Number of Readings to Display: <input type="number" id="charts-range"></p>
+                          <br>
+                          <br>
+                          <br>
+                        </div>
+                      </div>
+
+                    <!--TABLE WITH ALL DATA-->
+                      <div class ="cards">
+                        <div class="table-card" id="table-container" style= "display:none;">
+                            <table id="readings-table">
+                                <tr id="theader">
+                                  <th>DATE & TIME</th>
+                                  <th>RECORDED VALUES</th>
+                                </tr>
+                                <tbody id="tbody"></tbody>
+                            </table>
+                            <p><button id="load-data" style= "display:none;">More results...</button></p>
+                        </div>
+                      </div> 
+                </div>
+              </div>
+    </div>
+ 
+    </main>
+
+      <!--TABLE WITH ALL DATA-->
+        <div class ="cards">
+            <div class="table-card" id="table-container" style= "display:none;">
+              <table id="readings-table">
+                  <tr id="theader">
+                    <th>Timestamp</th>
+                    <th>Sensor Value</th>
+                  </tr>
+                  <tbody id="tbody"></tbody>
+              </table>
+            </div>
+            <p><button id="load-data" style= "display:none;">More results...</button></p>
+        </div>
+
+
+      <!--Modal to delete data-->
+      <div id="delete-modal" class="modal" sytle="display:none">
+        <span onclick = "document.getElementById('delete-modal').style.display='none'" class="close" title="Close Modal">×</span>
+        <form id= "delete-data-form" class="modal-content" action="/">
+            <div class="container">
+
+              <!----- REMOVE DELETE FEATURE ----->
+              <!-- <h1>Delete Data</h1>
+              <p>Are you sure you want to delete all data from database?</p>
+              
+                <div class="clearfix">
+                  <button type="button" onclick="document.getElementById('delete-modal').style.display='none'" class="cancelbtn">Cancel</button>
+                  <button type="submit" onclick="document.getElementById('delete-modal').style.display='none'" class="deletebtn">Delete</button>
+                </div> -->
+                
+            </div>
+        </form>
+      </div>
+  
+
+    </div>
+
+
+    <!--SCRIPTS FOR GRAPH-->
+    <script src="/scripts2/chart-definition.js"></script>
+    <script src="/scripts2/index.js"></script>
+    <script src="/scripts2/auth.js"></script>
+  
+</body>
+</html>

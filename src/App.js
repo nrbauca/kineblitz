@@ -8,6 +8,7 @@ import Login from "./Pages/Login";
 import Dashboard from './Pages/Dashboard';
 import UserDashboard from './Pages/UserDashboard';
 import Record from './Pages/Record';
+import RecordAuth from './Pages/RecordAuth';
 import Register from './Pages/Register';
 import Reset from './Pages/Reset';
 import LoginAuth from './Pages/LoginAuth';
@@ -29,6 +30,7 @@ function App() {
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/userdashboard" element={<UserDashboard />} />
           <Route path="/record" element={<Record />} />
+          <Route path="/recordauth" element={<RecordAuth />} />
           <Route path="/register" element={<Register />} />
           <Route path="/reset" element={<Reset />} />
           <Route path="/loginauth" element={<LoginAuth />} />
