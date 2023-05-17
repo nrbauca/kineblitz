@@ -61,7 +61,7 @@ export default function Dashboard() {
                         <button type="submit" className=" dash-information row gen-button">
                             <img src={blankpic} alt="" className="dash-pic" />
                             <div className="dash-details">
-                                <p className="dash-name">Patient Name Demo</p>
+                                <p className="dash-name">Patient Demo Name</p>
                                 <p className="dash-birth-date">Birth Date: 08-02-2015</p>
                                 <p className="dash-age">Age: 8</p>
                                 <p className="dash-id-num">ID No.: (Hardcoded)</p>

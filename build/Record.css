@@ -149,6 +149,16 @@ body {
     align-items: center;
 }
 
+.patient-name {
+    padding-top: 10px;
+    padding-bottom: 40px;
+    color: var(--main-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .form-elements-container{
     display: flex;
     justify-content: center;
