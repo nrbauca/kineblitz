@@ -46,7 +46,7 @@ export default function UserDashboard() {
                     <p className="user-name">{name}</p>
                     <p className="birth-date">Birth Date: {birthday}</p>
                     <p className="age">Age: {age}</p>
-                    <p className="id-num">ID No.: (Hardcoded)</p>
+                    <p className="id-num">ID No.: Vm0qIMiGh0OPoIhflOSM3OgRB0I3</p>
                     <p className="condition">Condition: {condition}</p>
                     </div>
                 </div>

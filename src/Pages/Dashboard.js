@@ -51,24 +51,24 @@ export default function Dashboard() {
                                 <p className="dash-name">Juan Dela Cruz</p>
                                 <p className="dash-birth-date">Birth Date: 09-02-2015</p>
                                 <p className="dash-age">Age: 8</p>
-                                <p className="dash-id-num">ID No.: (Hardcoded)</p>
+                                <p className="dash-id-num">ID No.: n21DvNPY6SffTKHLa1boQlmP2573</p>
                                 <p className="dash-condition">Condition: Cerebral Palsy</p>
                             </div>
                         </button>
                         </Link>
 
-                        {/* <Link to="/recordauth">
+                        <Link to="/recordauth">
                         <button type="submit" className=" dash-information row gen-button">
                             <img src={blankpic} alt="" className="dash-pic" />
                             <div className="dash-details">
                                 <p className="dash-name">Patient Demo Name</p>
                                 <p className="dash-birth-date">Birth Date: 08-02-2015</p>
                                 <p className="dash-age">Age: 8</p>
-                                <p className="dash-id-num">ID No.: (Hardcoded)</p>
+                                <p className="dash-id-num">ID No.: Vm0qIMiGh0OPoIhflOSM3OgRB0I3</p>
                                 <p className="dash-condition">Condition: Cerebral Palsy</p>
                             </div>
                         </button>
-                        </Link> */}
+                        </Link>
 
                     </div>
 
