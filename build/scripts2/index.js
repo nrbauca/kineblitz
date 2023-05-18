@@ -61,8 +61,8 @@ const setupUI = (user) => {
     userDetailsElement.innerHTML = user.email;
 
     // get user UID to get data from database
-    var uid = user.uid="n21DvNPY6SffTKHLa1boQlmP2573";
-    // var uid = user.uid="(testpatient uid)";
+    // var uid = user.uid="n21DvNPY6SffTKHLa1boQlmP2573";
+    var uid = user.uid="Vm0qIMiGh0OPoIhflOSM3OgRB0I3";
     console.log(uid);
 
     // Database paths (with user UID) ---- FOR ESP32 PA
